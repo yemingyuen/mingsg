@@ -1,0 +1,120 @@
+
+/* ==========================================================================
+    3.1 WordPress Alignments
+============================================================================= */
+
+.alignleft, 
+.alignright {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 40%
+}
+
+.alignleft {
+    float: left;
+    margin-right: 1.75em;
+}
+
+.alignright {
+    float: right;
+    margin-left: 1.75em;
+}
+
+.aligncenter, 
+.alignnone {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+    width: auto;
+}
+
+.aligncenter img, 
+.alignnone img {
+    width: auto;
+    height: auto
+}
+
+img.aligncenter, 
+img.alignnone {
+    width: auto;
+}
+
+.aligncenter {
+    text-align: center
+}
+
+.wp-caption {
+    width: auto
+}
+
+.wp-caption img {
+    display: block
+}
+
+.wp-caption-text, 
+.gallery-caption {
+    font-size: 13px;
+    margin-top: 6px;
+    line-height: 1.5;
+    color: @text-muted;
+    margin-bottom: 0;
+}
+
+/* ==========================================================================
+    3.2 WordPress Gallery
+============================================================================= */
+
+.gallery-columns(@n, @i: 1) when (@i =< @n) {
+    &.gallery-columns-@{i} {
+        .gallery-item {
+            width: (@i * 100% / @n);
+        }
+    }
+    .gallery-columns(@n, (@i + 1));
+}
+
+.gallery {
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 0.89285714em;
+
+    .gallery-item {
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+        padding: 0 5px;
+        margin-bottom: 10px;
+        position: relative;
+        overflow: hidden;
+
+        .gallery-caption {
+            position: absolute;
+            left: 5px;
+            right: 5px;
+            bottom: 0;
+            color: #fff;
+            text-align: left;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            .translate(0, 100%);
+            .transition-transform(.35s @ease-out-expo);
+        }
+
+        &:hover {
+            .gallery-caption {
+                .translate(0, 0);
+            }
+        }
+    }
+
+    .gallery-icon {
+        a {
+            display: block;
+        }
+        img {
+            width: 100%;
+        }
+    }
+
+    .gallery-columns(9);
+}

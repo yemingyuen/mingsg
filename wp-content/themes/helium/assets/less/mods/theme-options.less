@@ -1,0 +1,72 @@
+
+/* ==========================================================================
+	Layout
+============================================================================= */
+
+@logo-height: 0px;
+
+.brand .site-logo img {
+	& when not( @logo-height > 40px ) and not( @logo-height = 0px ) {
+		max-height: @logo-height;
+	}
+	
+	& when not( @logo-height = 0px ) {
+		@media (min-width: 992px) {
+			max-height: @logo-height;
+		}
+	}
+}
+
+/* ==========================================================================
+	Accent Color
+============================================================================= */
+
+@brand-primary: #3dc9b3;
+
+& when not( @brand-primary = #3dc9b3 ) {
+
+	.edd-download-title a:hover, 
+	.related-entry-title a:hover, 
+	.comment-author-name a:hover, 
+	.search-entry .search-entry-title a:hover, 
+	.main-nav ul li.current-menu-item > a, 
+	.main-nav ul li > a:hover, 
+	.post-title a:hover, 
+	.post-list-title a:hover {
+		color: @brand-primary;
+	}
+
+	.edd-download-actions .edd-add-to-cart:after, 
+	.edd-download-actions .edd_go_to_checkout:after, 
+	.edd-download-actions .edd-download-view-details:after, 
+	.edd-download-actions .edd-external-product-link:after, 
+	.edd-download-actions input.edd-add-to-cart:hover, 
+	.entry-comments-nav .nav-previous a:hover, 
+	.entry-comments-nav .nav-next a:hover, 
+	.grid-list-filter .filter-items li:hover > a, 
+	.grid-list-filter .filter-items li > a.active, 
+	.header-links .header-links-tooltip, 
+	.content-nav-link > a:before, 
+	.content-nav-link > span:before, 
+	.pages-nav ul li a:hover .pages-nav-item, 
+	.pages-nav .pages-nav-item, 
+	.mejs-controls .mejs-time-rail .mejs-time-current, 
+	.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, 
+	.featured-portfolio-slider .entry-slide-caption:after, 
+	.portfolio-info:after, 
+	.post-tags a:hover, 
+	.widget_tag_cloud .tagcloud a:hover {
+		background-color: @brand-primary;
+	}
+
+	.widget_tag_cloud .tagcloud a:hover {
+		border-color: @brand-primary;
+	}
+
+	@media (min-width: 992px) {
+
+		.grid-list-filter .filter-items li > a:after {
+			background-color: @brand-primary;
+		}
+	}
+}

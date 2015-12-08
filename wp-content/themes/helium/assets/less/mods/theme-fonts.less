@@ -1,0 +1,192 @@
+
+@roboto-ff: e('"Roboto"');
+@vollkorn-ff: e('"Vollkorn"');
+
+@body-font-family: @roboto-ff;
+@body-font-weight: 300;
+@body-font-style: normal;
+
+body {
+	& when not( @body-font-family = @roboto-ff ) {
+		font-family: @body-font-family;
+	}
+	& when not( @body-font-weight = 300 ) {
+		font-weight: @body-font-weight;
+	}
+	& when not( @body-font-style = normal ) {
+		font-style: @body-font-style;
+	}
+}
+
+@headings-1234-font-family: @roboto-ff;
+@headings-1234-font-weight: 700;
+@headings-1234-font-style: normal;
+
+h1, h2, h3, h4, 
+.h1, .h2, .h3, .h4 {
+	& when not( @headings-1234-font-family = @roboto-ff ) {
+		font-family: @headings-1234-font-family;
+	}
+	& when not( @headings-1234-font-weight = 700 ) {
+		font-weight: @headings-1234-font-weight;
+	}
+	& when not( @headings-1234-font-style = normal ) {
+		font-style: @headings-1234-font-style;
+	}
+}
+
+@headings-56-font-family: @roboto-ff;
+@headings-56-font-weight: 500;
+@headings-56-font-style: normal;
+
+h5, h6, 
+.h5, .h6 {
+	& when not( @headings-56-font-family = @roboto-ff ) {
+		font-family: @headings-56-font-family;
+	}
+	& when not( @headings-56-font-weight = 500 ) {
+		font-weight: @headings-56-font-weight;
+	}
+	& when not( @headings-56-font-style = normal ) {
+		font-style: @headings-56-font-style;
+	}
+}
+
+@menu-font-family: @roboto-ff;
+@menu-font-weight: 700;
+@menu-font-style: normal;
+
+.main-nav ul li a {
+	& when not( @menu-font-family = @roboto-ff ) {
+		font-family: @menu-font-family;
+	}
+	& when not( @menu-font-weight = 700 ) {
+		font-weight: @menu-font-weight;
+	}
+	& when not( @menu-font-style = normal ) {
+		font-style: @menu-font-style;
+	}
+}
+
+@blockquote-font-family: @vollkorn-ff;
+@blockquote-font-weight: 400;
+@blockquote-font-style: italic;
+
+blockquote {
+	p {
+		& when not( @blockquote-font-family = @vollkorn-ff ) {
+			font-family: @blockquote-font-family;
+		}
+		& when not( @blockquote-font-weight = 400 ) {
+			font-weight: @blockquote-font-weight;
+		}
+		& when not( @blockquote-font-style = italic ) {
+			font-style: @blockquote-font-style;
+		}
+	}
+	&:before {
+		& when not( @blockquote-font-family = @vollkorn-ff ) {
+			font-family: @blockquote-font-family;
+		}
+	}
+}
+
+@gridlist-filter-font-family: @roboto-ff;
+@gridlist-filter-font-weight: 300;
+@gridlist-filter-font-style: normal;
+
+.grid-list-filter {
+	& when not( @gridlist-filter-font-family = @roboto-ff ) {
+		font-family: @gridlist-filter-font-family;
+	}
+	& when not( @gridlist-filter-font-weight = 300 ) {
+		font-weight: @gridlist-filter-font-weight;
+	}
+	& when not( @gridlist-filter-font-style = normal ) {
+		font-style: @gridlist-filter-font-style;
+	}
+}
+
+@gridlist-title-font-family: @roboto-ff;
+@gridlist-title-font-weight: 700;
+@gridlist-title-font-style: normal;
+
+.edd-download-info-wrap .edd-download-title, 
+.portfolio-info .portfolio-title, 
+.featured-portfolio-slider .entry-slide-caption .entry-title {
+	& when not( @gridlist-title-font-family = @roboto-ff ) {
+		font-family: @gridlist-title-font-family;
+	}
+	& when not( @gridlist-title-font-weight = 700 ) {
+		font-weight: @gridlist-title-font-weight;
+	}
+	& when not( @gridlist-title-font-style = normal ) {
+		font-style: @gridlist-title-font-style;
+	}
+}
+
+@gridlist-subtitle-font-family: @roboto-ff;
+@gridlist-subtitle-font-weight: 300;
+@gridlist-subtitle-font-style: normal;
+
+.edd-download-info-wrap .edd-download-price, 
+.portfolio-info .portfolio-meta, 
+.featured-portfolio-slider .entry-slide-caption .entry-meta {
+	& when not( @gridlist-subtitle-font-family = @roboto-ff ) {
+		font-family: @gridlist-subtitle-font-family;
+	}
+	& when not( @gridlist-subtitle-font-weight = 300 ) {
+		font-weight: @gridlist-subtitle-font-weight;
+	}
+	& when not( @gridlist-subtitle-font-style = normal ) {
+		font-style: @gridlist-subtitle-font-style;
+	}
+}
+
+@content-title-font-family: @roboto-ff;
+@content-title-font-weight: 700;
+@content-title-font-style: normal;
+
+.content-title {
+	& when not( @content-title-font-family = @roboto-ff ) {
+		font-family: @content-title-font-family;
+	}
+	& when not( @content-title-font-weight = 700 ) {
+		font-weight: @content-title-font-weight;
+	}
+	& when not( @content-title-font-style = normal ) {
+		font-style: @content-title-font-style;
+	}
+}
+
+@content-nav-font-family: @roboto-ff;
+@content-nav-font-weight: 700;
+@content-nav-font-style: normal;
+
+.content-nav {
+	& when not( @content-nav-font-family = @roboto-ff ) {
+		font-family: @content-nav-font-family;
+	}
+	& when not( @content-nav-font-weight = 700 ) {
+		font-weight: @content-nav-font-weight;
+	}
+	& when not( @content-nav-font-style = normal ) {
+		font-style: @content-nav-font-style;
+	}
+}
+
+@widget-title-font-family: @roboto-ff;
+@widget-title-font-weight: 700;
+@widget-title-font-style: normal;
+
+.widget-title {
+	& when not( @widget-title-font-family = @roboto-ff ) {
+		font-family: @widget-title-font-family;
+	}
+	& when not( @widget-title-font-weight = 700 ) {
+		font-weight: @widget-title-font-weight;
+	}
+	& when not( @widget-title-font-style = normal ) {
+		font-style: @widget-title-font-style;
+	}
+}

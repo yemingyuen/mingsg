@@ -1,0 +1,328 @@
+
+/* ==========================================================================
+	12.1 Justified Grids
+============================================================================= */
+
+.justified-grids {
+	white-space: nowrap;
+	overflow: hidden;
+	.justified-grids-item {
+		display: inline-block;
+		vertical-align: top;
+		img {
+			width: auto;
+		}
+	}
+	.justified-grids-break {
+		visibility: hidden;
+		width: 0;
+		height: 0;
+		pointer-events: none;
+	}
+}
+
+/* ==========================================================================
+	12.2 Google Maps
+============================================================================= */
+
+.google-maps-container {
+	position: relative;
+	.google-maps {
+		position: absolute;
+		left: 0; top: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/* ==========================================================================
+	12.3 Team
+============================================================================= */
+
+.team {
+
+	margin-bottom: @content-spacing;
+
+	.team-photo {
+		background-color: #fff;
+		img {
+			.transition(opacity .35s ease-out);
+		}
+		a {
+			display: block;
+		}
+		&:hover {
+			img {
+				opacity: 0.8;
+			}
+		}
+	}
+
+	.team-info {
+		text-align: center;
+		padding: 13px 0;
+		.team-name {
+			font-size: 16px;
+			margin: 0 0 2px;
+		}
+		.team-role {
+			font-size: 13px;
+			color: @text-muted;
+			line-height: 1.5;
+			margin: 0;
+		}
+	}
+}
+
+/* ==========================================================================
+	12.4 Team Popup
+============================================================================= */
+
+.team-popup {
+	background-color: #fff;
+	max-width: 480px;
+	margin: auto;
+
+	.team-info {
+		.team-header, 
+		.team-description {
+			padding: 40px 35px;
+		}
+
+		.team-header {
+			padding-bottom: 15px;
+		}
+
+		.team-name {
+			margin: 0 0 2px;
+		}
+
+		.team-role {
+			color: @text-muted;
+			line-height: 1.5;
+			margin: 0;
+		}
+
+		.team-description {
+			padding-top: 0;
+		}
+
+		.team-social {
+			padding: 20px 35px;
+			border-top: 1px solid @base-border-color;
+			ul {
+				li {
+					+ li {
+						margin-left: 1.5em;
+					}
+					a {
+						color: @text-color;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+	12.5 Client List
+============================================================================= */
+
+.client-list {
+	@client-border-size: 10px;
+	@client-border-thickness: 1px;
+
+	margin-bottom: @client-border-size + @client-border-thickness;
+	overflow: hidden;
+
+	ul {
+		margin-bottom: -(@client-border-size + @client-border-thickness);
+	}
+
+	.client {
+		width: 100%;
+		float: left;
+		position: relative;
+		.translate3d(0, 0, 0);
+
+		&:after, 
+		&:before {
+			content: '';
+			position: absolute;
+			border: solid;
+			visibility: hidden;
+			background-color: @body-bg;
+			border-color: darken(@base-border-color, 10%);
+		}
+
+		&:after {
+			width: @client-border-size * 2 + @client-border-thickness;
+			height: @client-border-thickness;
+			left: floor( ( @client-border-size * 2 + @client-border-thickness ) / 2 ) * -1;
+			bottom: floor( @client-border-thickness / 2 ) * -1;
+			border-width: 0 @client-border-size;
+		}
+
+		&:before {
+			width: @client-border-thickness;
+			height: @client-border-size * 2 + @client-border-thickness;
+			left: floor( @client-border-thickness / 2 ) * -1;
+			bottom: floor( ( @client-border-size * 2 + @client-border-thickness ) / 2 ) * -1;
+			border-width: @client-border-size 0;
+		}
+	}
+
+	.client-logo {
+		padding-bottom: percentage(9/16);
+		position: relative;
+
+		.logo {
+			position: absolute;
+			left: 0; top: 0;
+			width: 100%;
+			height: 100%;
+			padding: 14% 15%;
+
+			a, span {
+				display: block;
+				text-align: center;
+				width: 100%;
+				height: 100%;
+				font-size: 0;
+
+				&:before {
+					content: '';
+					display: inline-block;
+					vertical-align: middle;
+					height: 100%;
+				}
+			}
+
+			img {
+				display: inline-block;
+				vertical-align: middle;
+				max-width: 100%;
+				max-height: 100%;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+	12.6 Pricing Tables
+============================================================================= */
+
+.pricing-table {
+	text-align: center;
+	border: 1px solid @base-border-color;
+
+	&.featured {
+		.box-shadow(0 0 16px rgba(0, 0, 0, 0.15));
+		.table-header {
+			padding: 20px;
+		}
+	}
+
+	.table-header {
+		padding: 10px 20px;
+		font-size: @font-size-large;
+		border-bottom: 1px solid @base-border-color;
+
+		.name > small {
+			display: block;
+			line-height: 1.5;
+			font-style: italic;
+		}
+	}
+
+	.table-price {
+		padding: 10px 20px;
+		border-bottom: 1px solid @base-border-color;
+		background-color: @body-bg;
+
+		.price {
+			font-size: @font-size-h2;
+			line-height: 1;
+			font-weight: @headings-font-weight;
+		}
+
+		.price > span {
+			font-size: @font-size-large;
+			vertical-align: text-top;
+			display: inline-block;
+		}
+	}
+
+	.table-features ul {
+		&:extend(ul.plain-list);
+		li {
+			padding: 10px 20px;
+			border-bottom: 1px solid @base-border-color;
+			&:nth-child(2n) {
+				background-color: @body-bg;
+			}
+		}
+	}
+
+	.table-footer {
+		padding: 20px;
+	}
+}
+
+/* ==========================================================================
+	12.7 Portfolio Featured Slider
+============================================================================= */
+
+.featured-portfolio-slider {
+	.entry-slide {
+		position: relative;
+		height: 100%;
+	}
+	.entry-slide-caption {
+		position: absolute;
+		left: 20px;
+		bottom: 20px;
+		z-index: 1;
+		background-color: #fff;
+
+		a {
+			display: block;
+			position: relative;
+			z-index: 1;
+			padding: 20px 30px;
+		}
+
+		.entry-title {
+			margin: 0;
+			line-height: 1;
+			font-size: @gridlist-title-font-size;
+		}
+
+		.entry-meta {
+			margin: 4px 0 0;
+			color: @text-muted;
+			line-height: 1.5;
+			font-size: @gridlist-subtitle-font-size;
+		}
+
+		&:after {
+			content: '';
+			background-color: @brand-primary;
+			left: 0; top: 0;
+			width: 100%;
+			height: 0;
+			position: absolute;
+			.transition(height .6s @ease-out-expo);
+		}
+
+		&:hover {
+			&:after {
+				height: 100%;
+			}
+			.entry-title, 
+			.entry-meta {
+				color: #fff;
+			}
+		}
+	}
+}

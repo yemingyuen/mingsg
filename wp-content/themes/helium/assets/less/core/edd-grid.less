@@ -1,0 +1,164 @@
+
+/* ==========================================================================
+	9. Easy Digital Downloads Grid
+============================================================================= */
+
+.edd-download-info-wrap {
+	background-color: #fff;
+	overflow: hidden;
+	height: 80px;
+}
+
+.edd-download-info {
+	padding: 21px 30px;
+	overflow: hidden;
+}
+
+.edd-download-title, 
+.edd-download-price {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	.transition(color .15s ease-out);
+}
+
+.edd-download-title {
+	font-size: @gridlist-title-font-size;
+	margin: 0;
+	width: 100%;
+	+ .edd-download-price {
+		margin-top: 2px;
+	}
+	a {
+		color: @headings-color;
+		&:hover {
+			color: @brand-primary;
+		}
+	}
+}
+
+.edd-download-price {
+	color: @text-muted;
+	margin: 0;
+	line-height: 1.5;
+	font-size: @gridlist-subtitle-font-size;
+}
+
+.edd-download-actions {
+	float: right;
+	width: 80px;
+	z-index: 1;
+	position: relative;
+	border-left: 1px solid @base-border-color;
+	text-align: center;
+	font-size: 12px;
+	line-height: 1.4;
+
+	a {
+		color: @headings-color;
+		display: inline-block;
+		&:hover {
+			color: inherit;
+		}
+	}
+
+	.edd_download_purchase_form {
+		width: 100%;
+		margin: 0;
+	}
+
+	.edd-cart-ajax-alert, 
+	.edd_purchase_tax_rate {
+		display: none;
+	}
+
+	.edd-add-to-cart, 
+	.edd_go_to_checkout, 
+	.edd-download-view-details, 
+	.edd-external-product-link {
+		width: 100%;
+		line-height: 1;
+		vertical-align: top;
+		padding: 24px 0;
+		position: relative;
+
+		&:after {
+			content: '';
+			background-color: @brand-primary;
+			left: 0; top: 0;
+			width: 100%;
+			height: 0;
+			position: absolute;
+			z-index: -1;
+			.transition(height .6s @ease-out-expo);
+		}
+
+		&:hover:after {
+			height: 100%;
+		}
+	}
+
+	input.edd-add-to-cart {
+		display: inline-block;
+		text-align: center;
+		vertical-align: middle;
+		touch-action: manipulation;
+		cursor: pointer;
+		border: none;
+		padding: 34px 0;
+		outline: none !important;
+		background: none;
+		white-space: nowrap;
+		.transition(background-color .6s @ease-out-expo);
+
+		&:hover {
+			color: inherit;
+			background-color: @brand-primary;
+		}
+	}
+
+	.edd-download-view-details {
+		.fa {
+			font-size: 18px;
+			line-height: 1;
+			margin-bottom: 2px;
+			display: block;
+		}
+	}
+
+	a.edd-add-to-cart .edd-add-to-cart-label:before, 
+	.edd-external-product-link-label:before, 
+	.edd_go_to_checkout:before {
+		font-family: 'FontAwesome';
+		display: block;
+		font-size: 18px;
+		margin-bottom: 2px;
+	}
+
+	a.edd-add-to-cart .edd-add-to-cart-label, 
+	a.edd-add-to-cart .edd-loading, 
+	.edd-external-product-link-label {
+		display: block;
+	}
+
+	a.edd-add-to-cart {
+		.edd-add-to-cart-label:before {
+			content: '\f07a';
+		}
+		.edd-loading .edd-icon-spin {
+			vertical-align: top;
+		}
+	}
+
+	.edd-external-product-link-label:before {
+		content: '\f067';
+	}
+
+	.edd_go_to_checkout:before {
+		content: '\f090';
+	}
+
+	&:hover {
+		color: #fff;
+	}
+}

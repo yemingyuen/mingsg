@@ -1,0 +1,80 @@
+
+/* ==========================================================================
+	4.1 Buttons
+============================================================================= */
+
+.btn {
+	border: none !important;
+	outline: none !important;
+}
+
+.btn-ui {
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	&, &:focus {
+		&, &:active {
+			outline: none;
+			.box-shadow(none);
+		}
+	}
+}
+
+/* ==========================================================================
+	4.2 Alert
+============================================================================= */
+
+.alert {
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0;
+	}
+}
+
+/* ==========================================================================
+	4.3 Progressbar
+============================================================================= */
+
+.progress {
+	margin-bottom: 10px;
+	&, .progress-bar {
+		.box-shadow(none);
+	}
+}
+
+/* ==========================================================================
+	4.4 Accordion + Toggles
+============================================================================= */
+
+.panel {
+	.box-shadow(none);
+}
+
+.panel-heading {
+	padding: 15px;
+}
+
+.panel-title {
+	font-weight: inherit;
+}
+
+.panel-body {
+	padding: @grid-gutter-width / 2;
+}
+
+/* ==========================================================================
+	4.5 Tabs + Pills
+============================================================================= */
+
+.nav-tabs {
+	border-bottom: none;
+	+ .tab-content {
+		padding: @grid-gutter-width / 2;
+		border: 1px solid @base-border-color;
+		.border-bottom-radius(@border-radius-base);
+	}
+}
+
+.nav-pills + .tab-content {
+	padding-top: @grid-gutter-width / 2;
+}

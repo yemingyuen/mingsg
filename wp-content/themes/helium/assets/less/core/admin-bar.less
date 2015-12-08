@@ -1,0 +1,25 @@
+
+/* ==========================================================================
+	17. WP Admin Bar
+============================================================================= */
+
+.admin-bar {
+
+	.site-wrap {
+		min-height: ~'-webkit-calc(100vh - @{admin-bar-height-mobile})';
+		min-height: ~'calc(100vh - @{admin-bar-height-mobile})';
+	}
+
+	@media (min-width: 783px) {
+		.site-wrap {
+			min-height: ~'-webkit-calc(100vh - @{admin-bar-height})';
+			min-height: ~'calc(100vh - @{admin-bar-height})';
+		}
+	}
+
+	@media (min-width: @screen-md-min) {
+		.header {
+			top: @admin-bar-height;
+		}
+	}
+}

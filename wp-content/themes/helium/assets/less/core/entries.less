@@ -1,0 +1,265 @@
+
+/* ==========================================================================
+	6.1 Entry Sidebar
+============================================================================= */
+
+.entry-sidebar {
+
+	.entry-details {
+		color: @item-detail-color;
+		margin-top: @content-spacing-md;
+		padding-top: @item-detail-spacing;
+		border-top: 1px solid @base-border-color;
+
+		> li + li {
+			margin-top: @item-detail-spacing;
+			padding-top: @item-detail-spacing;
+			border-top: 1px solid @base-border-color;
+		}
+	}
+
+	.entry-detail-label, 
+	.entry-detail-value {
+		display: block;
+	}
+
+	.entry-detail-label {
+		margin: 0;
+		color: @item-detail-label-color;
+	}
+
+	.entry-detail-value {
+		line-height: 1.6;
+		margin-top: 6px;
+
+		-ms-word-break: break-all;
+		word-break: break-all;
+
+		/* Non standard for webkit */
+		word-break: break-word;
+
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto;
+		-ms-hyphens: auto;
+		hyphens: auto;
+	}
+}
+
+/* ==========================================================================
+	6.2 Entry Related
+============================================================================= */
+
+.related-entry-media {
+	margin-bottom: 10px;
+	a {
+		display: block;
+		position: relative;
+		&:hover .overlay {
+			opacity: 1;
+		}
+	}
+	.overlay {
+		position: absolute;
+		z-index: 1;
+		left: 0; top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		background-color: rgba(255, 255, 255, 0.6);
+		.transition(opacity .35s ease-out);
+
+		&:after {
+			font-family: 'Helium';
+			content: '\e057';
+			color: @text-color;
+			font-size: 24px;
+			width: 24px;
+			height: 24px;
+			line-height: 1;
+			position: absolute;
+			left: 50%; top: 50%;
+			margin: -12px 0 0 -12px;
+		}
+	}
+}
+
+.related-entry-title {
+	margin: 0;
+	a {
+		color: @headings-color;
+		&:hover {
+			color: @brand-primary;
+		}
+	}
+}
+
+.related-entry-meta {
+	display: block;
+	margin: 0;
+	font-size: @font-size-small;
+	&, a {
+		color: @text-muted;
+	}
+}
+
+/* ==========================================================================
+	6.3 Entry Comments
+============================================================================= */
+
+.entry-comments-wrap {
+	.entry-comments {
+		padding-bottom: @content-wrap-inner-padding-vert * 0.45;
+	}
+	.entry-comments-form {
+		padding-top: @content-wrap-inner-padding-vert * 0.45;
+		border-top: 1px dotted #e0e0e0;
+	}
+	.post-section-title {
+		margin: 0 0 @content-wrap-inner-padding-vert * 0.3;
+	}
+}
+
+.comment-list {
+	margin-bottom: -@entry-comment-spacing;
+	&, ul {
+		&:extend(ul.plain-list);
+	}
+
+	ul.children {
+		margin-left: ( @entry-comment-avatar-width + @entry-comment-avatar-margin ) / 2;
+	}
+}
+
+.bypostauthor {
+	> .comment-entry {
+		background-color: #fdfdfd;
+		border: 1px solid @base-border-color;
+		padding: 30px;
+	}
+}
+
+.comment-entry {
+	margin-bottom: @entry-comment-spacing;
+}
+
+.comment-avatar {
+	float: left;
+	width: @entry-comment-avatar-width;
+	margin-right: @entry-comment-avatar-margin;
+}
+
+.comment-author-name {
+	margin: 0;
+	color: @headings-color;
+	a {
+		color: @headings-color;
+		&:hover {
+			color: @brand-primary;
+		}
+	}
+}
+
+.comment-time {
+	font-size: @entry-comment-time-font-size;
+	font-style: @entry-comment-time-font-style;
+	color: @entry-comment-time-color;
+}
+
+.comment-body {
+	clear: both;
+	padding-top: @entry-comment-body-padding-top;
+}
+
+.comment-links {
+	font-size: @entry-comment-links-font-size;
+	> a + a {
+		margin-left: 10px;
+	}
+}
+
+/* ==========================================================================
+	6.4 Entry Comments Nav
+============================================================================= */
+
+.entry-comments-nav {
+	margin-top: @content-wrap-inner-padding-vert * 0.45;
+	padding-top: @content-wrap-inner-padding-vert * 0.45;
+	border-top: 1px dotted @dotted-border-color;
+
+	.nav-previous {
+		float: left;
+	}
+
+	.nav-next {
+		float: right;
+	}
+
+	.nav-previous, .nav-next {
+		a {
+			display: inline-block;
+			color: @text-muted;
+			background-color: #f8f8f8;
+			border-radius: 3px;
+			padding: 9px 12px;
+			line-height: 1;
+			&:hover {
+				background-color: @brand-primary;
+				color: #fff;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+	6.5 Post Comments Form
+============================================================================= */
+
+.entry-comments-form {
+	.content-wrap-inner {
+		padding-top: 0;
+	}
+}
+
+.comment-reply-title {
+	font-size: @font-size-h4;
+	margin: 0 0 2px;
+	padding: 0;
+}
+
+#cancel-comment-reply-link {
+	font-size: @entry-comment-links-font-size;
+	text-transform: none;
+	&:before {
+		content: '\0020\2014\0020';
+		color: @text-muted;
+	}
+}
+
+.comment-respond {
+	.comment-form-comment, 
+	.must-log-in, 
+	.logged-in-as, 
+	.comment-notes, 
+	.form-allowed-tags {
+		font-size: @entry-comment-form-notes-font-size;
+	}
+
+	.form-submit {
+		margin: 0;
+	}
+
+	.comment-notes .required {
+		color: @brand-danger;
+	}
+
+	.form-allowed-tags {
+		padding: @content-spacing;
+		background-color: #f8f8f8;
+		border-radius: @border-radius-base;
+		code {
+			background: transparent;
+			display: block;
+			color: @text-muted;
+		}
+	}
+}

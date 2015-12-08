@@ -1,0 +1,239 @@
+
+/* ==========================================================================
+	8.1 Grid List Filter
+============================================================================= */
+
+.grid-list-filter {
+	margin-bottom: @content-spacing - @gridlist-filter-spacing;
+	font-size: @gridlist-filter-font-size;
+
+	.filter-label {
+		color: #000;
+		display: block;
+		padding: 8px 20px;
+		margin-bottom: @gridlist-filter-spacing;
+		margin-right: @gridlist-filter-spacing;
+		background-color: #fff;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		border-bottom: 1px solid @base-border-color;
+	}
+
+	.filter-items {
+		display: none;
+		li {
+			display: block;
+			background-color: #fff;
+			margin-bottom: @gridlist-filter-spacing;
+			margin-right: @gridlist-filter-spacing;
+			position: relative;
+			z-index: 1;
+			border-bottom: 1px solid @base-border-color;
+			> a {
+				color: @text-color;
+				padding: 8px 20px;
+				display: block;
+				position: relative;
+
+				&.disabled {
+					opacity: 0.5;
+					pointer-events: none;
+				}
+			}
+			&:hover > a, 
+			> a.active {
+				color: #fff;
+				background-color: @brand-primary;
+				&.disabled {
+					color: @text-color;
+					background-color: transparent;
+				}
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+	8.2 Grid List Item
+============================================================================= */
+
+.grid-list {
+	padding: @content-spacing;
+
+	.grid {
+		max-width: 100%;
+		overflow: hidden;
+		position: relative;
+		margin: 0 0 @gridlist-gutter-width;
+
+		.grid-inner {
+			border-bottom: 1px solid @base-border-color;
+			opacity: 0;
+			position: relative;
+
+			.desktop & {
+				.translate(0, -30px);
+				.transition(all 0.2s @ease-out-quad);
+			}
+		}
+
+		&.loaded {
+			.grid-inner {
+				opacity: 1;
+				.desktop & {
+					.translate(0, 0);
+				}
+			}
+			&:before {
+				content: none;
+			}
+			.grid-loader {
+				display: none;
+			}
+		}
+
+		.grid-loader {
+			position: absolute;
+			top: 50%;
+			left: 0; right: 0;
+			height: 2.5em;
+			margin: -1.25em 0 0;
+			text-align: center;
+			.helium-loader {
+				width: 2.5em;
+				height: 2.5em;
+				display: inline-block;
+				vertical-align: top;
+			}
+		}
+	}
+
+	.grid-list-wrap {
+		position: relative;
+	}
+}
+
+/* ==========================================================================
+	8.3 Grid List Classic
+============================================================================= */
+
+.grid-list-classic {
+
+	.grid-list-wrap {
+		margin-left: -@gridlist-gutter-width;
+	}
+
+	.grid {
+		display: inline-block;
+		vertical-align: top;
+		padding-left: @gridlist-gutter-width;
+		width: 100%;
+
+		.grid-loader {
+			left: @gridlist-gutter-width;
+		}
+	}
+}
+
+/* ==========================================================================
+	8.4 Grid List Justified
+============================================================================= */
+
+.grid-list-justified {
+	.grid {
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+
+/* ==========================================================================
+	8.5 Grid List Masonry
+============================================================================= */
+
+.grid-list-masonry {
+	.grid-sizer {
+		position: absolute;
+		visibility: hidden;
+	}
+
+	.grid-sizer, 
+	.grid {
+		width: 100%;
+	}
+
+	.grid-list-wrap {
+		margin-left: -@gridlist-gutter-width;
+	}
+
+	.grid {
+		padding-left: @gridlist-gutter-width;
+		.grid-loader {
+			left: @gridlist-gutter-width;
+		}
+	}
+}
+
+/* ==========================================================================
+	8.6 Grid List Image
+============================================================================= */
+
+.grid-list-image {
+	position: relative;
+	overflow: hidden;
+
+	.grid-list-image-link, 
+	.grid-list-image-placeholder {
+		display: block;
+		position: relative;
+	}
+
+	.grid-list-image-placeholder {
+		> img {
+			position: absolute;
+			left: 0; top: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.overlay {
+		position: absolute;
+		z-index: 1;
+		left: 0; top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		text-align: center;
+		background-color: rgba(255, 255, 255, 0.4);
+		.transition(opacity .35s ease-out);
+
+		&:after {
+			font-family: 'Helium';
+			content: '\e057';
+			color: @text-color;
+			font-size: 24px;
+			width: 24px;
+			height: 24px;
+			line-height: 1;
+			position: absolute;
+			left: 50%; top: 50%;
+			margin: -12px 0 0 -12px;
+		}
+	}
+
+	&:hover {
+		.overlay {
+			opacity: 1;
+		}
+	}
+}
+
+/* ==========================================================================
+	8.7 Grid List Nav
+============================================================================= */
+
+.grid-list-nav {
+	.content-box {
+		margin-top: 0;
+	}
+}

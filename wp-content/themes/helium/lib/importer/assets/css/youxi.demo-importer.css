@@ -1,0 +1,42 @@
+
+.wrap.demo-importer h2 {
+	float: left;
+	margin-bottom: 15px;
+}
+
+.demo-browser .demo-content:focus .more-details, 
+.demo-browser.rendered .demo-content:hover .more-details,
+.demo-browser.rendered .demo-content:focus .more-details {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	opacity: 0;
+}
+
+.demo-browser .demo-content:hover .demo-screenshot,
+.demo-browser .demo-content:focus .demo-screenshot {
+	background: transparent;
+}
+
+.demo-browser.rendered .demo-content:hover .demo-screenshot img,
+.demo-browser.rendered .demo-content:focus .demo-screenshot img {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	opacity: 1;
+}
+
+.demo-browser.rendered .demo-content .more-details {
+	left: 10%; right: 10%;
+	line-height: 1.6;
+}
+
+.demo-browser.rendered .demo-content.is-importing .more-details {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	opacity: 1;
+}
+
+.demo-browser.rendered .demo-content.is-importing .demo-screenshot {
+	background-color: #fff;
+}
+
+.demo-browser.rendered .demo-content.is-importing .demo-screenshot img {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	opacity: 0.4;	
+}

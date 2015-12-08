@@ -1,0 +1,4040 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Helium\n"
+"POT-Creation-Date: 2015-11-18 15:46+0700\n"
+"PO-Revision-Date: 2015-11-18 15:46+0700\n"
+"Last-Translator: \n"
+"Language-Team: YouxiThemes\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../archive-download.php:146 ../archive-portfolio.php:159
+msgid "Filter"
+msgstr ""
+
+#: ../archive-download.php:152 ../archive-portfolio.php:165
+msgid "All"
+msgstr ""
+
+#: ../archive-download.php:233 ../edd_templates/history-purchases.php:12
+#: ../plugins-config/config-youxi-portfolio.php:152
+#: ../taxonomy-download_category.php:104 ../taxonomy-download_tag.php:104
+msgid "Details"
+msgstr ""
+
+#: ../archive.php:36 ../includes/helium-customizer.php:477
+#: ../includes/helium-customizer.php:650 ../includes/helium-customizer.php:962
+msgid "Archive"
+msgstr ""
+
+#: ../comments.php:16
+#, php-format
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:19
+#, php-format
+msgid "No comment on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: ../comments.php:29
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:30
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:36
+msgid "Comments are closed for this post."
+msgstr ""
+
+#: ../edd_templates/checkout_cart.php:6
+msgid "Item Name"
+msgstr ""
+
+#: ../edd_templates/checkout_cart.php:7
+msgid "Item Price"
+msgstr ""
+
+#: ../edd_templates/checkout_cart.php:8
+msgid "Actions"
+msgstr ""
+
+#: ../edd_templates/checkout_cart.php:40 ../edd_templates/checkout_cart.php:55
+#: ../lib/framework/class-walker-nav-menu-edit.php:197
+#: ../lib/framework/customizer/controls/class-repeater-control.php:91
+#: ../lib/framework/customizer/controls/class-repeater-control.php:271
+msgid "Remove"
+msgstr ""
+
+#: ../edd_templates/checkout_cart.php:78
+#: ../edd_templates/shortcode-receipt.php:87
+msgid "Subtotal"
+msgstr ""
+
+#: ../edd_templates/checkout_cart.php:96
+#: ../edd_templates/shortcode-receipt.php:79
+msgid "Tax"
+msgstr ""
+
+#: ../edd_templates/checkout_cart.php:105
+msgid "Total"
+msgstr ""
+
+#: ../edd_templates/history-downloads.php:10
+msgid "Download Name"
+msgstr ""
+
+#: ../edd_templates/history-downloads.php:12
+msgid "Files"
+msgstr ""
+
+#: ../edd_templates/history-downloads.php:67
+#: ../edd_templates/shortcode-receipt.php:200
+msgid "No downloadable files found."
+msgstr ""
+
+#: ../edd_templates/history-downloads.php:72
+#, php-format
+msgid "Payment status is %s"
+msgstr ""
+
+#: ../edd_templates/history-downloads.php:104
+msgid "You have not purchased any downloads"
+msgstr ""
+
+#: ../edd_templates/history-purchases.php:9
+#: ../includes/helium-customizer.php:795
+#: ../plugins-config/config-youxi-portfolio.php:456
+#: ../plugins-config/config-youxi-portfolio.php:525
+msgid "ID"
+msgstr ""
+
+#: ../edd_templates/history-purchases.php:10
+#: ../edd_templates/shortcode-receipt.php:48
+#: ../includes/helium-customizer.php:792
+#: ../plugins-config/config-youxi-portfolio.php:453
+#: ../plugins-config/config-youxi-portfolio.php:522
+msgid "Date"
+msgstr ""
+
+#: ../edd_templates/history-purchases.php:11
+msgid "Amount"
+msgstr ""
+
+#: ../edd_templates/history-purchases.php:30
+msgid "View Details and Downloads"
+msgstr ""
+
+#: ../edd_templates/history-purchases.php:51
+msgid "You have not made any purchases"
+msgstr ""
+
+#: ../edd_templates/shortcode-login.php:12
+msgid "Log into Your Account"
+msgstr ""
+
+#: ../edd_templates/shortcode-login.php:17
+#: ../edd_templates/shortcode-login.php:18
+#: ../edd_templates/shortcode-register.php:17
+#: ../edd_templates/shortcode-register.php:18
+msgid "Username"
+msgstr ""
+
+#: ../edd_templates/shortcode-login.php:22
+#: ../edd_templates/shortcode-register.php:27
+msgid "Password"
+msgstr ""
+
+#: ../edd_templates/shortcode-login.php:30
+msgid "Log In"
+msgstr ""
+
+#: ../edd_templates/shortcode-login.php:34
+msgid "Lost Password"
+msgstr ""
+
+#: ../edd_templates/shortcode-login.php:35
+msgid "Lost Password?"
+msgstr ""
+
+#: ../edd_templates/shortcode-login.php:47
+msgid "You are already logged in"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:17
+msgid "Saved cart"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:17
+#, php-format
+msgid "You have a saved cart, <a href=\"%s\">click here</a> to restore it."
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:23
+msgid "Success"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:23
+msgid "Your profile has been edited successfully."
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:32
+msgid "Change your Name"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:35
+msgid "First Name"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:40
+msgid "Last Name"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:45
+msgid "Display Name"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:62
+#: ../edd_templates/shortcode-register.php:23
+msgid "Email Address"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:66
+msgid "Change your Billing Address"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:69
+msgid "Line 1"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:74
+msgid "Line 2"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:79
+msgid "City"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:84
+msgid "Zip / Postal Code"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:89
+msgid "Country"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:98
+msgid "State / Province"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:102
+msgid "Change your Password"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:105
+msgid "New Password"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:110
+msgid "Re-enter Password"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:114
+msgid "Please note after changing your password, you must log back in."
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:119
+msgid "Save Changes"
+msgstr ""
+
+#: ../edd_templates/shortcode-profile-editor.php:126
+msgid "You need to login to edit your profile."
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:20
+msgid "Payment"
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:29
+msgid "Payment Status"
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:35
+msgid "Payment Key"
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:42
+msgid "Payment Method"
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:55
+msgid "Fees"
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:72
+msgid "Discount(s)"
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:94
+msgid "Total Price"
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:108
+msgid "Products"
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:112
+msgid "Name"
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:114
+msgid "SKU"
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:117
+msgid "Quantity"
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:119
+msgid "Price"
+msgstr ""
+
+#: ../edd_templates/shortcode-receipt.php:191
+msgid "No downloadable files found for this bundled item."
+msgstr ""
+
+#: ../edd_templates/shortcode-register.php:12
+msgid "Register New Account"
+msgstr ""
+
+#: ../edd_templates/shortcode-register.php:22
+#: ../includes/helium-addthis.php:102
+msgid "Email"
+msgstr ""
+
+#: ../edd_templates/shortcode-register.php:32
+msgid "Confirm Password"
+msgstr ""
+
+#: ../edd_templates/shortcode-register.php:41
+msgid "Register"
+msgstr ""
+
+#: ../edd_templates/widget-cart-item.php:4
+msgid "remove"
+msgstr ""
+
+#: ../includes/helium-addthis.php:15
+msgid "Facebook Like"
+msgstr ""
+
+#: ../includes/helium-addthis.php:16
+msgid "Facebook Send"
+msgstr ""
+
+#: ../includes/helium-addthis.php:17
+msgid "Twitter Tweet"
+msgstr ""
+
+#: ../includes/helium-addthis.php:18
+msgid "Twitter Follow"
+msgstr ""
+
+#: ../includes/helium-addthis.php:19
+msgid "Google+ One"
+msgstr ""
+
+#: ../includes/helium-addthis.php:20
+msgid "Google+ Badge"
+msgstr ""
+
+#: ../includes/helium-addthis.php:21
+msgid "Hyves Respect"
+msgstr ""
+
+#: ../includes/helium-addthis.php:22 ../includes/helium-addthis.php:177
+#: ../includes/helium-wp.php:223
+msgid "LinkedIn"
+msgstr ""
+
+#: ../includes/helium-addthis.php:23
+msgid "StumbleUpon Badge"
+msgstr ""
+
+#: ../includes/helium-addthis.php:24
+msgid "Pinterest Pinit"
+msgstr ""
+
+#: ../includes/helium-addthis.php:25 ../includes/helium-wp.php:230
+msgid "Foursquare"
+msgstr ""
+
+#: ../includes/helium-addthis.php:26
+msgid "Amazon Wishlist"
+msgstr ""
+
+#: ../includes/helium-addthis.php:29
+msgid "AddThis Compact"
+msgstr ""
+
+#: ../includes/helium-addthis.php:30
+msgid "AddThis Expanded"
+msgstr ""
+
+#: ../includes/helium-addthis.php:31
+msgid "100zakladok"
+msgstr ""
+
+#: ../includes/helium-addthis.php:32
+msgid "2 Tag"
+msgstr ""
+
+#: ../includes/helium-addthis.php:33
+msgid "2linkme"
+msgstr ""
+
+#: ../includes/helium-addthis.php:34
+msgid "A97abi"
+msgstr ""
+
+#: ../includes/helium-addthis.php:35
+msgid "Address Bar"
+msgstr ""
+
+#: ../includes/helium-addthis.php:36
+msgid "Adfty"
+msgstr ""
+
+#: ../includes/helium-addthis.php:37
+msgid "Adifni"
+msgstr ""
+
+#: ../includes/helium-addthis.php:38
+msgid "ADV QR code"
+msgstr ""
+
+#: ../includes/helium-addthis.php:39
+msgid "Amazon"
+msgstr ""
+
+#: ../includes/helium-addthis.php:40
+msgid "Amen Me!"
+msgstr ""
+
+#: ../includes/helium-addthis.php:41
+msgid "Aol Lifestream"
+msgstr ""
+
+#: ../includes/helium-addthis.php:42
+msgid "AOL Mail"
+msgstr ""
+
+#: ../includes/helium-addthis.php:43
+msgid "APSense"
+msgstr ""
+
+#: ../includes/helium-addthis.php:44
+msgid "Arto"
+msgstr ""
+
+#: ../includes/helium-addthis.php:45
+msgid "Azadegi"
+msgstr ""
+
+#: ../includes/helium-addthis.php:46
+msgid "Baang"
+msgstr ""
+
+#: ../includes/helium-addthis.php:47
+msgid "Baidu"
+msgstr ""
+
+#: ../includes/helium-addthis.php:48
+msgid "BallTribe"
+msgstr ""
+
+#: ../includes/helium-addthis.php:49
+msgid "Beat100"
+msgstr ""
+
+#: ../includes/helium-addthis.php:50
+msgid "BiggerPockets"
+msgstr ""
+
+#: ../includes/helium-addthis.php:51
+msgid "Bit.ly"
+msgstr ""
+
+#: ../includes/helium-addthis.php:52
+msgid "bizSugar"
+msgstr ""
+
+#: ../includes/helium-addthis.php:53
+msgid "Bland takkinn"
+msgstr ""
+
+#: ../includes/helium-addthis.php:54
+msgid "Blinklist"
+msgstr ""
+
+#: ../includes/helium-addthis.php:55 ../includes/helium-wp.php:236
+msgid "Blogger"
+msgstr ""
+
+#: ../includes/helium-addthis.php:56
+msgid "Bloggy"
+msgstr ""
+
+#: ../includes/helium-addthis.php:57
+msgid "Blogkeen"
+msgstr ""
+
+#: ../includes/helium-addthis.php:58
+msgid "Blogmarks"
+msgstr ""
+
+#: ../includes/helium-addthis.php:59
+msgid "Blurpalicious"
+msgstr ""
+
+#: ../includes/helium-addthis.php:60
+msgid "Bobrdobr"
+msgstr ""
+
+#: ../includes/helium-addthis.php:61
+msgid "BonzoBox"
+msgstr ""
+
+#: ../includes/helium-addthis.php:62
+msgid "BookmarkingNet"
+msgstr ""
+
+#: ../includes/helium-addthis.php:63
+msgid "Bookmarky.cz"
+msgstr ""
+
+#: ../includes/helium-addthis.php:64
+msgid "Bookmerken"
+msgstr ""
+
+#: ../includes/helium-addthis.php:65
+msgid "Box.net"
+msgstr ""
+
+#: ../includes/helium-addthis.php:66
+msgid "Brainify"
+msgstr ""
+
+#: ../includes/helium-addthis.php:67
+msgid "Bryderi"
+msgstr ""
+
+#: ../includes/helium-addthis.php:68
+msgid "BuddyMarks"
+msgstr ""
+
+#: ../includes/helium-addthis.php:69
+msgid "Buffer"
+msgstr ""
+
+#: ../includes/helium-addthis.php:70
+msgid "Buzzzy"
+msgstr ""
+
+#: ../includes/helium-addthis.php:71
+msgid "Camyoo"
+msgstr ""
+
+#: ../includes/helium-addthis.php:72
+msgid "Care2"
+msgstr ""
+
+#: ../includes/helium-addthis.php:73
+msgid "Cherry Share"
+msgstr ""
+
+#: ../includes/helium-addthis.php:74
+msgid "Chiq"
+msgstr ""
+
+#: ../includes/helium-addthis.php:75
+msgid "Cirip"
+msgstr ""
+
+#: ../includes/helium-addthis.php:76
+msgid "CiteULike"
+msgstr ""
+
+#: ../includes/helium-addthis.php:77
+msgid "ClassicalPlace"
+msgstr ""
+
+#: ../includes/helium-addthis.php:78
+msgid "CleanPrint"
+msgstr ""
+
+#: ../includes/helium-addthis.php:79
+msgid "CleanSave"
+msgstr ""
+
+#: ../includes/helium-addthis.php:80
+msgid "Cndig"
+msgstr ""
+
+#: ../includes/helium-addthis.php:81
+msgid "Colivia.de"
+msgstr ""
+
+#: ../includes/helium-addthis.php:82
+msgid "Communicate"
+msgstr ""
+
+#: ../includes/helium-addthis.php:83
+msgid "COSMiQ"
+msgstr ""
+
+#: ../includes/helium-addthis.php:84
+msgid "CSS Based"
+msgstr ""
+
+#: ../includes/helium-addthis.php:85
+msgid "Curate.Us"
+msgstr ""
+
+#: ../includes/helium-addthis.php:86
+msgid "Delicious"
+msgstr ""
+
+#: ../includes/helium-addthis.php:87
+msgid "DigaCultura"
+msgstr ""
+
+#: ../includes/helium-addthis.php:88
+msgid "Digg"
+msgstr ""
+
+#: ../includes/helium-addthis.php:89
+msgid "Diggita"
+msgstr ""
+
+#: ../includes/helium-addthis.php:90
+msgid "Digo"
+msgstr ""
+
+#: ../includes/helium-addthis.php:91
+msgid "Diigo"
+msgstr ""
+
+#: ../includes/helium-addthis.php:92
+msgid "doMelhor"
+msgstr ""
+
+#: ../includes/helium-addthis.php:93
+msgid "DotNetShoutout"
+msgstr ""
+
+#: ../includes/helium-addthis.php:94
+msgid "Douban"
+msgstr ""
+
+#: ../includes/helium-addthis.php:95
+msgid "Draugiem.lv"
+msgstr ""
+
+#: ../includes/helium-addthis.php:96
+msgid "Dropjack"
+msgstr ""
+
+#: ../includes/helium-addthis.php:97
+msgid "Dudu"
+msgstr ""
+
+#: ../includes/helium-addthis.php:98
+msgid "dzone"
+msgstr ""
+
+#: ../includes/helium-addthis.php:99
+msgid "EFactor"
+msgstr ""
+
+#: ../includes/helium-addthis.php:100
+msgid "eKudos"
+msgstr ""
+
+#: ../includes/helium-addthis.php:101
+msgid "elefanta.pl"
+msgstr ""
+
+#: ../includes/helium-addthis.php:103
+msgid "Email App"
+msgstr ""
+
+#: ../includes/helium-addthis.php:104
+msgid "Embarkons"
+msgstr ""
+
+#: ../includes/helium-addthis.php:105
+msgid "Evernote"
+msgstr ""
+
+#: ../includes/helium-addthis.php:106
+msgid "extraplay"
+msgstr ""
+
+#: ../includes/helium-addthis.php:107
+msgid "EzySpot"
+msgstr ""
+
+#: ../includes/helium-addthis.php:108
+msgid "Fab Design"
+msgstr ""
+
+#: ../includes/helium-addthis.php:109
+msgid "Fabulously40"
+msgstr ""
+
+#: ../includes/helium-addthis.php:110 ../includes/helium-wp.php:220
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/helium-addthis.php:111
+msgid "Fai Informazione"
+msgstr ""
+
+#: ../includes/helium-addthis.php:112
+msgid "Fancy"
+msgstr ""
+
+#: ../includes/helium-addthis.php:113
+msgid "Fark"
+msgstr ""
+
+#: ../includes/helium-addthis.php:114
+msgid "Farkinda"
+msgstr ""
+
+#: ../includes/helium-addthis.php:115
+msgid "Fashiolista"
+msgstr ""
+
+#: ../includes/helium-addthis.php:116
+msgid "FAVable"
+msgstr ""
+
+#: ../includes/helium-addthis.php:117
+msgid "Fave"
+msgstr ""
+
+#: ../includes/helium-addthis.php:118
+msgid "favlog"
+msgstr ""
+
+#: ../includes/helium-addthis.php:119
+msgid "Favoriten.de"
+msgstr ""
+
+#: ../includes/helium-addthis.php:120
+msgid "Favorites"
+msgstr ""
+
+#: ../includes/helium-addthis.php:121
+msgid "Favoritus"
+msgstr ""
+
+#: ../includes/helium-addthis.php:122
+msgid "financialjuice"
+msgstr ""
+
+#: ../includes/helium-addthis.php:123
+msgid "Flaker"
+msgstr ""
+
+#: ../includes/helium-addthis.php:124
+msgid "Flipboard"
+msgstr ""
+
+#: ../includes/helium-addthis.php:125
+msgid "Folkd"
+msgstr ""
+
+#: ../includes/helium-addthis.php:126
+msgid "Formspring"
+msgstr ""
+
+#: ../includes/helium-addthis.php:127
+msgid "FreeDictionary"
+msgstr ""
+
+#: ../includes/helium-addthis.php:128
+msgid "Fresqui"
+msgstr ""
+
+#: ../includes/helium-addthis.php:129
+msgid "FriendFeed"
+msgstr ""
+
+#: ../includes/helium-addthis.php:130
+msgid "funP"
+msgstr ""
+
+#: ../includes/helium-addthis.php:131
+msgid "fwisp"
+msgstr ""
+
+#: ../includes/helium-addthis.php:132
+msgid "Gamekicker"
+msgstr ""
+
+#: ../includes/helium-addthis.php:133
+msgid "GG"
+msgstr ""
+
+#: ../includes/helium-addthis.php:134
+msgid "Giftery.me"
+msgstr ""
+
+#: ../includes/helium-addthis.php:135
+msgid "GigBasket"
+msgstr ""
+
+#: ../includes/helium-addthis.php:136
+msgid "GiveALink"
+msgstr ""
+
+#: ../includes/helium-addthis.php:137
+msgid "Gmail"
+msgstr ""
+
+#: ../includes/helium-addthis.php:138
+msgid "Go.vn"
+msgstr ""
+
+#: ../includes/helium-addthis.php:139
+msgid "Good Noows"
+msgstr ""
+
+#: ../includes/helium-addthis.php:140
+msgid "Google"
+msgstr ""
+
+#: ../includes/helium-addthis.php:141
+msgid "Google Plus"
+msgstr ""
+
+#: ../includes/helium-addthis.php:142
+msgid "Google Translate"
+msgstr ""
+
+#: ../includes/helium-addthis.php:143 ../includes/helium-wp.php:221
+msgid "Google+"
+msgstr ""
+
+#: ../includes/helium-addthis.php:144
+msgid "GreaterDebater"
+msgstr ""
+
+#: ../includes/helium-addthis.php:145
+msgid "Hacker News"
+msgstr ""
+
+#: ../includes/helium-addthis.php:146
+msgid "Hatena"
+msgstr ""
+
+#: ../includes/helium-addthis.php:147
+msgid "Healthimize"
+msgstr ""
+
+#: ../includes/helium-addthis.php:148
+msgid "Hedgehogs.net"
+msgstr ""
+
+#: ../includes/helium-addthis.php:149
+msgid "Historious"
+msgstr ""
+
+#: ../includes/helium-addthis.php:150
+msgid "HootSuite"
+msgstr ""
+
+#: ../includes/helium-addthis.php:151
+msgid "Hotklix"
+msgstr ""
+
+#: ../includes/helium-addthis.php:152
+msgid "Hotmail"
+msgstr ""
+
+#: ../includes/helium-addthis.php:153
+msgid "HTML Validator"
+msgstr ""
+
+#: ../includes/helium-addthis.php:154
+msgid "Identica"
+msgstr ""
+
+#: ../includes/helium-addthis.php:155
+msgid "ihavegot"
+msgstr ""
+
+#: ../includes/helium-addthis.php:156
+msgid "Indexor"
+msgstr ""
+
+#: ../includes/helium-addthis.php:157
+msgid "Instapaper"
+msgstr ""
+
+#: ../includes/helium-addthis.php:158
+msgid "iOrbix"
+msgstr ""
+
+#: ../includes/helium-addthis.php:159
+msgid "IRepeater.Share"
+msgstr ""
+
+#: ../includes/helium-addthis.php:160
+msgid "iSociety"
+msgstr ""
+
+#: ../includes/helium-addthis.php:161
+msgid "iWiW"
+msgstr ""
+
+#: ../includes/helium-addthis.php:162
+msgid "Jamespot"
+msgstr ""
+
+#: ../includes/helium-addthis.php:163
+msgid "Jappy Ticker"
+msgstr ""
+
+#: ../includes/helium-addthis.php:164
+msgid "Jolly"
+msgstr ""
+
+#: ../includes/helium-addthis.php:165
+msgid "Jumptags"
+msgstr ""
+
+#: ../includes/helium-addthis.php:166
+msgid "Kaboodle"
+msgstr ""
+
+#: ../includes/helium-addthis.php:167
+msgid "Kaevur"
+msgstr ""
+
+#: ../includes/helium-addthis.php:168
+msgid "Kaixin Repaste"
+msgstr ""
+
+#: ../includes/helium-addthis.php:169
+msgid "Ketnooi"
+msgstr ""
+
+#: ../includes/helium-addthis.php:170
+msgid "Kik"
+msgstr ""
+
+#: ../includes/helium-addthis.php:171
+msgid "Kindle It"
+msgstr ""
+
+#: ../includes/helium-addthis.php:172
+msgid "Kledy"
+msgstr ""
+
+#: ../includes/helium-addthis.php:173
+msgid "Kommenting"
+msgstr ""
+
+#: ../includes/helium-addthis.php:174
+msgid "La Tafanera"
+msgstr ""
+
+#: ../includes/helium-addthis.php:175
+msgid "Librerio"
+msgstr ""
+
+#: ../includes/helium-addthis.php:176
+msgid "LiDAR Online"
+msgstr ""
+
+#: ../includes/helium-addthis.php:178
+msgid "Links Gutter"
+msgstr ""
+
+#: ../includes/helium-addthis.php:179
+msgid "LinkShares"
+msgstr ""
+
+#: ../includes/helium-addthis.php:180
+msgid "Linkuj.cz"
+msgstr ""
+
+#: ../includes/helium-addthis.php:181
+msgid "LiveJournal"
+msgstr ""
+
+#: ../includes/helium-addthis.php:182
+msgid "LockerBlogger"
+msgstr ""
+
+#: ../includes/helium-addthis.php:183
+msgid "Logger24.com"
+msgstr ""
+
+#: ../includes/helium-addthis.php:184
+msgid "Mail.ru"
+msgstr ""
+
+#: ../includes/helium-addthis.php:185
+msgid "mar.gar.in"
+msgstr ""
+
+#: ../includes/helium-addthis.php:186
+msgid "Markme"
+msgstr ""
+
+#: ../includes/helium-addthis.php:187
+msgid "Mashant"
+msgstr ""
+
+#: ../includes/helium-addthis.php:188
+msgid "Mashbord"
+msgstr ""
+
+#: ../includes/helium-addthis.php:189
+msgid "me2day"
+msgstr ""
+
+#: ../includes/helium-addthis.php:190
+msgid "meinVZ"
+msgstr ""
+
+#: ../includes/helium-addthis.php:191
+msgid "Mekusharim"
+msgstr ""
+
+#: ../includes/helium-addthis.php:192
+msgid "Memonic"
+msgstr ""
+
+#: ../includes/helium-addthis.php:193
+msgid "Memori.ru"
+msgstr ""
+
+#: ../includes/helium-addthis.php:194
+msgid "Mendeley Import"
+msgstr ""
+
+#: ../includes/helium-addthis.php:195
+msgid "Meneame"
+msgstr ""
+
+#: ../includes/helium-addthis.php:196
+msgid "Messenger"
+msgstr ""
+
+#: ../includes/helium-addthis.php:197
+msgid "Mister Wong"
+msgstr ""
+
+#: ../includes/helium-addthis.php:198
+msgid "Mister Wong DE"
+msgstr ""
+
+#: ../includes/helium-addthis.php:199
+msgid "Mixi"
+msgstr ""
+
+#: ../includes/helium-addthis.php:200
+msgid "Moemesto.ru"
+msgstr ""
+
+#: ../includes/helium-addthis.php:201
+msgid "Moikrug"
+msgstr ""
+
+#: ../includes/helium-addthis.php:202
+msgid "mRcNEtwORK"
+msgstr ""
+
+#: ../includes/helium-addthis.php:203
+msgid "Myspace"
+msgstr ""
+
+#: ../includes/helium-addthis.php:204
+msgid "myVidster"
+msgstr ""
+
+#: ../includes/helium-addthis.php:205
+msgid "N4G"
+msgstr ""
+
+#: ../includes/helium-addthis.php:206
+msgid "Nasza-klasa"
+msgstr ""
+
+#: ../includes/helium-addthis.php:207
+msgid "NetLog"
+msgstr ""
+
+#: ../includes/helium-addthis.php:208
+msgid "Netvibes"
+msgstr ""
+
+#: ../includes/helium-addthis.php:209
+msgid "Netvouz"
+msgstr ""
+
+#: ../includes/helium-addthis.php:210
+msgid "NewsMeBack"
+msgstr ""
+
+#: ../includes/helium-addthis.php:211
+msgid "NewsTrust"
+msgstr ""
+
+#: ../includes/helium-addthis.php:212
+msgid "Newsvine"
+msgstr ""
+
+#: ../includes/helium-addthis.php:213
+msgid "Nujij"
+msgstr ""
+
+#: ../includes/helium-addthis.php:214
+msgid "Odnoklassniki"
+msgstr ""
+
+#: ../includes/helium-addthis.php:215
+msgid "OKNOtizie"
+msgstr ""
+
+#: ../includes/helium-addthis.php:216
+msgid "OpenTheDoor"
+msgstr ""
+
+#: ../includes/helium-addthis.php:217
+msgid "Oyyla"
+msgstr ""
+
+#: ../includes/helium-addthis.php:218
+msgid "Packg"
+msgstr ""
+
+#: ../includes/helium-addthis.php:219
+msgid "pafnet.de"
+msgstr ""
+
+#: ../includes/helium-addthis.php:220
+msgid "PDF Online"
+msgstr ""
+
+#: ../includes/helium-addthis.php:221
+msgid "PDFmyURL"
+msgstr ""
+
+#: ../includes/helium-addthis.php:222
+msgid "PhoneFavs"
+msgstr ""
+
+#: ../includes/helium-addthis.php:223 ../includes/helium-wp.php:222
+msgid "Pinterest"
+msgstr ""
+
+#: ../includes/helium-addthis.php:224
+msgid "Planypus"
+msgstr ""
+
+#: ../includes/helium-addthis.php:225
+msgid "Plaxo"
+msgstr ""
+
+#: ../includes/helium-addthis.php:226
+msgid "Plurk"
+msgstr ""
+
+#: ../includes/helium-addthis.php:227
+msgid "Pocket"
+msgstr ""
+
+#: ../includes/helium-addthis.php:228
+msgid "Posteezy"
+msgstr ""
+
+#: ../includes/helium-addthis.php:229
+msgid "Print"
+msgstr ""
+
+#: ../includes/helium-addthis.php:230
+msgid "PrintFriendly"
+msgstr ""
+
+#: ../includes/helium-addthis.php:231
+msgid "Pusha"
+msgstr ""
+
+#: ../includes/helium-addthis.php:232
+msgid "QRF.in"
+msgstr ""
+
+#: ../includes/helium-addthis.php:233
+msgid "QRSrc.com"
+msgstr ""
+
+#: ../includes/helium-addthis.php:234
+msgid "Quantcast"
+msgstr ""
+
+#: ../includes/helium-addthis.php:235
+msgid "Qzone"
+msgstr ""
+
+#: ../includes/helium-addthis.php:236
+msgid "Reddit"
+msgstr ""
+
+#: ../includes/helium-addthis.php:237
+msgid "Rediff MyPage"
+msgstr ""
+
+#: ../includes/helium-addthis.php:238
+msgid "RedKum"
+msgstr ""
+
+#: ../includes/helium-addthis.php:239
+msgid "ResearchGate"
+msgstr ""
+
+#: ../includes/helium-addthis.php:240
+msgid "Safelinking"
+msgstr ""
+
+#: ../includes/helium-addthis.php:241
+msgid "Scoop.at"
+msgstr ""
+
+#: ../includes/helium-addthis.php:242
+msgid "Scoop.it"
+msgstr ""
+
+#: ../includes/helium-addthis.php:243
+msgid "Sekoman"
+msgstr ""
+
+#: ../includes/helium-addthis.php:244
+msgid "Select2Gether"
+msgstr ""
+
+#: ../includes/helium-addthis.php:245
+msgid "Shaveh"
+msgstr ""
+
+#: ../includes/helium-addthis.php:246
+msgid "SheToldMe"
+msgstr ""
+
+#: ../includes/helium-addthis.php:247
+msgid "Sina Weibo"
+msgstr ""
+
+#: ../includes/helium-addthis.php:248
+msgid "Skyrock Blog"
+msgstr ""
+
+#: ../includes/helium-addthis.php:249
+msgid "SMI"
+msgstr ""
+
+#: ../includes/helium-addthis.php:250
+msgid "SodaHead"
+msgstr ""
+
+#: ../includes/helium-addthis.php:251
+msgid "Sonico"
+msgstr ""
+
+#: ../includes/helium-addthis.php:252
+msgid "SpinSnap"
+msgstr ""
+
+#: ../includes/helium-addthis.php:253
+msgid "Spread.ly"
+msgstr ""
+
+#: ../includes/helium-addthis.php:254
+msgid "springpad"
+msgstr ""
+
+#: ../includes/helium-addthis.php:255
+msgid "Startaid"
+msgstr ""
+
+#: ../includes/helium-addthis.php:256
+msgid "Startlap"
+msgstr ""
+
+#: ../includes/helium-addthis.php:257
+msgid "Story Follower"
+msgstr ""
+
+#: ../includes/helium-addthis.php:258
+msgid "studiVZ"
+msgstr ""
+
+#: ../includes/helium-addthis.php:259
+msgid "Stuffpit"
+msgstr ""
+
+#: ../includes/helium-addthis.php:260 ../includes/helium-wp.php:234
+msgid "StumbleUpon"
+msgstr ""
+
+#: ../includes/helium-addthis.php:261
+msgid "Stumpedia"
+msgstr ""
+
+#: ../includes/helium-addthis.php:262
+msgid "Sulia"
+msgstr ""
+
+#: ../includes/helium-addthis.php:263
+msgid "Sunlize"
+msgstr ""
+
+#: ../includes/helium-addthis.php:264
+msgid "SUP BRO"
+msgstr ""
+
+#: ../includes/helium-addthis.php:265
+msgid "Surfingbird"
+msgstr ""
+
+#: ../includes/helium-addthis.php:266
+msgid "Svejo"
+msgstr ""
+
+#: ../includes/helium-addthis.php:267
+msgid "Symbaloo"
+msgstr ""
+
+#: ../includes/helium-addthis.php:268
+msgid "Taaza"
+msgstr ""
+
+#: ../includes/helium-addthis.php:269
+msgid "Tagza"
+msgstr ""
+
+#: ../includes/helium-addthis.php:270
+msgid "Tapiture"
+msgstr ""
+
+#: ../includes/helium-addthis.php:271
+msgid "Taringa!"
+msgstr ""
+
+#: ../includes/helium-addthis.php:272
+msgid "The Web Blend"
+msgstr ""
+
+#: ../includes/helium-addthis.php:273
+msgid "Thinkfinity"
+msgstr ""
+
+#: ../includes/helium-addthis.php:274
+msgid "ThisNext"
+msgstr ""
+
+#: ../includes/helium-addthis.php:275
+msgid "Thrill On"
+msgstr ""
+
+#: ../includes/helium-addthis.php:276
+msgid "Throwpile"
+msgstr ""
+
+#: ../includes/helium-addthis.php:277
+msgid "to.ly"
+msgstr ""
+
+#: ../includes/helium-addthis.php:278
+msgid "TopSiteler"
+msgstr ""
+
+#: ../includes/helium-addthis.php:279
+msgid "Transferr"
+msgstr ""
+
+#: ../includes/helium-addthis.php:280
+msgid "Tuenti"
+msgstr ""
+
+#: ../includes/helium-addthis.php:281
+msgid "Tulinq"
+msgstr ""
+
+#: ../includes/helium-addthis.php:282
+msgid "Tumblr"
+msgstr ""
+
+#: ../includes/helium-addthis.php:283
+msgid "Tvinx"
+msgstr ""
+
+#: ../includes/helium-addthis.php:284 ../includes/helium-wp.php:219
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/helium-addthis.php:285
+msgid "TwitThis"
+msgstr ""
+
+#: ../includes/helium-addthis.php:286
+msgid "Typepad"
+msgstr ""
+
+#: ../includes/helium-addthis.php:287
+msgid "Upnews.it"
+msgstr ""
+
+#: ../includes/helium-addthis.php:288
+msgid "Urlaubswerk"
+msgstr ""
+
+#: ../includes/helium-addthis.php:289
+msgid "Viadeo"
+msgstr ""
+
+#: ../includes/helium-addthis.php:290
+msgid "Virb"
+msgstr ""
+
+#: ../includes/helium-addthis.php:291
+msgid "Visitez Mon Site"
+msgstr ""
+
+#: ../includes/helium-addthis.php:292
+msgid "Vkontakte"
+msgstr ""
+
+#: ../includes/helium-addthis.php:293
+msgid "vKruguDruzei"
+msgstr ""
+
+#: ../includes/helium-addthis.php:294
+msgid "VOXopolis"
+msgstr ""
+
+#: ../includes/helium-addthis.php:295
+msgid "vybrali SME"
+msgstr ""
+
+#: ../includes/helium-addthis.php:296
+msgid "Wanelo"
+msgstr ""
+
+#: ../includes/helium-addthis.php:297
+msgid "Wayback"
+msgstr ""
+
+#: ../includes/helium-addthis.php:298
+msgid "WebMoney.Events"
+msgstr ""
+
+#: ../includes/helium-addthis.php:299
+msgid "Webnews"
+msgstr ""
+
+#: ../includes/helium-addthis.php:300
+msgid "WebShare"
+msgstr ""
+
+#: ../includes/helium-addthis.php:301
+msgid "Wer Kennt Wen"
+msgstr ""
+
+#: ../includes/helium-addthis.php:302
+msgid "WhatsApp"
+msgstr ""
+
+#: ../includes/helium-addthis.php:303
+msgid "Whois Lookup"
+msgstr ""
+
+#: ../includes/helium-addthis.php:304
+msgid "Windows Gadgets"
+msgstr ""
+
+#: ../includes/helium-addthis.php:305
+msgid "WireFan"
+msgstr ""
+
+#: ../includes/helium-addthis.php:306
+msgid "WishMindr"
+msgstr ""
+
+#: ../includes/helium-addthis.php:307 ../includes/helium-wp.php:233
+msgid "WordPress"
+msgstr ""
+
+#: ../includes/helium-addthis.php:308
+msgid "WowBored"
+msgstr ""
+
+#: ../includes/helium-addthis.php:309
+msgid "Write Politicians"
+msgstr ""
+
+#: ../includes/helium-addthis.php:310
+msgid "Wykop"
+msgstr ""
+
+#: ../includes/helium-addthis.php:311
+msgid "Xanga"
+msgstr ""
+
+#: ../includes/helium-addthis.php:312
+msgid "XING"
+msgstr ""
+
+#: ../includes/helium-addthis.php:313
+msgid "Y! Bookmarks"
+msgstr ""
+
+#: ../includes/helium-addthis.php:314
+msgid "Y! Mail"
+msgstr ""
+
+#: ../includes/helium-addthis.php:315
+msgid "Yammer"
+msgstr ""
+
+#: ../includes/helium-addthis.php:316
+msgid "Yardbarker"
+msgstr ""
+
+#: ../includes/helium-addthis.php:317
+msgid "Yigg"
+msgstr ""
+
+#: ../includes/helium-addthis.php:318
+msgid "Yookos"
+msgstr ""
+
+#: ../includes/helium-addthis.php:319
+msgid "Yoolink"
+msgstr ""
+
+#: ../includes/helium-addthis.php:320
+msgid "Yorumcuyum"
+msgstr ""
+
+#: ../includes/helium-addthis.php:321
+msgid "YouMob"
+msgstr ""
+
+#: ../includes/helium-addthis.php:322
+msgid "Yuuby"
+msgstr ""
+
+#: ../includes/helium-addthis.php:323
+msgid "Zakladok.net"
+msgstr ""
+
+#: ../includes/helium-addthis.php:324
+msgid "ZicZac"
+msgstr ""
+
+#: ../includes/helium-addthis.php:325
+msgid "ZingMe"
+msgstr ""
+
+#: ../includes/helium-comments.php:19
+msgid "Pingback:"
+msgstr ""
+
+#: ../includes/helium-comments.php:19 ../includes/helium-comments.php:54
+msgid "Edit"
+msgstr ""
+
+#: ../includes/helium-comments.php:36
+msgid "(author)"
+msgstr ""
+
+#: ../includes/helium-comments.php:40
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../includes/helium-comments.php:49
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/helium-comments.php:78 ../includes/helium-comments.php:80
+msgctxt "noun"
+msgid "Name"
+msgstr ""
+
+#: ../includes/helium-comments.php:85 ../includes/helium-comments.php:87
+msgctxt "noun"
+msgid "Email"
+msgstr ""
+
+#: ../includes/helium-comments.php:92 ../includes/helium-comments.php:94
+msgctxt "noun"
+msgid "URL"
+msgstr ""
+
+#: ../includes/helium-comments.php:101 ../includes/helium-comments.php:103
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: ../includes/helium-customizer.php:58
+msgid "Header"
+msgstr ""
+
+#: ../includes/helium-customizer.php:77 ../includes/helium-theme-options.php:14
+msgid "&copy; Youxi Themes. 2012-2014. All Rights Reserved."
+msgstr ""
+
+#: ../includes/helium-customizer.php:85
+msgid "Logo Image"
+msgstr ""
+
+#: ../includes/helium-customizer.php:92
+msgid "Max Logo Height"
+msgstr ""
+
+#: ../includes/helium-customizer.php:102
+msgid "Show Search"
+msgstr ""
+
+#: ../includes/helium-customizer.php:108
+msgid "Copyright Text"
+msgstr ""
+
+#: ../includes/helium-customizer.php:130
+msgid "Accent Color"
+msgstr ""
+
+#: ../includes/helium-customizer.php:144
+msgid "Typography"
+msgstr ""
+
+#: ../includes/helium-customizer.php:191
+msgid "Body Font"
+msgstr ""
+
+#: ../includes/helium-customizer.php:198
+msgid "H1, H2, H3, H4 Font"
+msgstr ""
+
+#: ../includes/helium-customizer.php:205
+msgid "H5, H6 Font"
+msgstr ""
+
+#: ../includes/helium-customizer.php:212
+msgid "Menu Font"
+msgstr ""
+
+#: ../includes/helium-customizer.php:219
+msgid "Blockquote Font"
+msgstr ""
+
+#: ../includes/helium-customizer.php:226
+msgid "Gridlist Filter Font"
+msgstr ""
+
+#: ../includes/helium-customizer.php:233
+msgid "Gridlist Title Font"
+msgstr ""
+
+#: ../includes/helium-customizer.php:240
+msgid "Gridlist Subtitle Font"
+msgstr ""
+
+#: ../includes/helium-customizer.php:247
+msgid "Content Title Font"
+msgstr ""
+
+#: ../includes/helium-customizer.php:254
+msgid "Content Navigation Font"
+msgstr ""
+
+#: ../includes/helium-customizer.php:261
+msgid "Widget Title Font"
+msgstr ""
+
+#: ../includes/helium-customizer.php:278 ../includes/helium-customizer.php:283
+msgid "Blog"
+msgstr ""
+
+#: ../includes/helium-customizer.php:289
+msgid "Entries"
+msgstr ""
+
+#: ../includes/helium-customizer.php:304
+msgid "Hide Post Meta"
+msgstr ""
+
+#: ../includes/helium-customizer.php:307
+msgid "Author"
+msgstr ""
+
+#: ../includes/helium-customizer.php:308
+msgid "Category"
+msgstr ""
+
+#: ../includes/helium-customizer.php:309 ../templates/download/entry.php:147
+msgid "Tags"
+msgstr ""
+
+#: ../includes/helium-customizer.php:310
+msgid "Comments"
+msgstr ""
+
+#: ../includes/helium-customizer.php:311 ../templates/post/parts/header.php:56
+msgid "Permalink"
+msgstr ""
+
+#: ../includes/helium-customizer.php:320
+msgid "Posts"
+msgstr ""
+
+#: ../includes/helium-customizer.php:356 ../includes/helium-customizer.php:919
+msgid "Show Tags"
+msgstr ""
+
+#: ../includes/helium-customizer.php:363 ../includes/helium-customizer.php:926
+msgid "Show Sharing Buttons"
+msgstr ""
+
+#: ../includes/helium-customizer.php:370
+msgid "Show Author"
+msgstr ""
+
+#: ../includes/helium-customizer.php:377
+msgid "Show Related Posts"
+msgstr ""
+
+#: ../includes/helium-customizer.php:384
+msgid "Related Posts Count"
+msgstr ""
+
+#: ../includes/helium-customizer.php:393
+msgid "Related Posts Behavior"
+msgstr ""
+
+#: ../includes/helium-customizer.php:397 ../includes/helium-customizer.php:640
+#: ../includes/helium-customizer.php:953
+msgid "Show Lightbox"
+msgstr ""
+
+#: ../includes/helium-customizer.php:398 ../includes/helium-customizer.php:641
+#: ../includes/helium-customizer.php:954
+msgid "Go to Post"
+msgstr ""
+
+#: ../includes/helium-customizer.php:406
+msgid "Summary"
+msgstr ""
+
+#: ../includes/helium-customizer.php:424
+msgid "Summary Display"
+msgstr ""
+
+#: ../includes/helium-customizer.php:428
+msgid "Excerpt"
+msgstr ""
+
+#: ../includes/helium-customizer.php:429
+msgid "More Tag"
+msgstr ""
+
+#: ../includes/helium-customizer.php:435
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../includes/helium-customizer.php:447 ../includes/helium-customizer.php:810
+#: ../plugins-config/config-easy-digital-downloads.php:172
+#: ../plugins-config/config-youxi-core.php:20
+#: ../plugins-config/config-youxi-portfolio.php:101
+#: ../plugins-config/config-youxi-portfolio.php:474
+msgid "Layout"
+msgstr ""
+
+#: ../includes/helium-customizer.php:467 ../includes/helium-customizer.php:536
+msgid "Index"
+msgstr ""
+
+#: ../includes/helium-customizer.php:471 ../includes/helium-customizer.php:481
+#: ../includes/helium-customizer.php:491
+#: ../plugins-config/config-youxi-core.php:28
+#: ../plugins-config/config-youxi-portfolio.php:114
+msgid "Boxed"
+msgstr ""
+
+#: ../includes/helium-customizer.php:472 ../includes/helium-customizer.php:482
+#: ../includes/helium-customizer.php:492
+#: ../plugins-config/config-youxi-core.php:27
+#: ../plugins-config/config-youxi-portfolio.php:115
+#: ../plugins-config/config-youxi-shortcodes.php:505
+msgid "Fullwidth"
+msgstr ""
+
+#: ../includes/helium-customizer.php:487 ../includes/helium-customizer.php:542
+msgid "Single"
+msgstr ""
+
+#: ../includes/helium-customizer.php:501
+msgid "Titles"
+msgstr ""
+
+#: ../includes/helium-customizer.php:509
+#: ../includes/helium-theme-options.php:39
+msgid "Welcome to Our Blog"
+msgstr ""
+
+#: ../includes/helium-customizer.php:513
+#: ../includes/helium-theme-options.php:40
+msgid "Currently Reading"
+msgstr ""
+
+#: ../includes/helium-customizer.php:517
+#: ../includes/helium-theme-options.php:41
+msgid "Category: {category}"
+msgstr ""
+
+#: ../includes/helium-customizer.php:521
+#: ../includes/helium-theme-options.php:42
+msgid "Posts Tagged &lsquo;{tag}&rsquo;"
+msgstr ""
+
+#: ../includes/helium-customizer.php:525
+#: ../includes/helium-theme-options.php:43
+msgid "Posts by {author}"
+msgstr ""
+
+#: ../includes/helium-customizer.php:529
+#: ../includes/helium-theme-options.php:44
+msgid "Archive for {date}"
+msgstr ""
+
+#: ../includes/helium-customizer.php:545
+msgid "Use <strong>{title}</strong> for the post title."
+msgstr ""
+
+#: ../includes/helium-customizer.php:549
+msgid "Category Archive"
+msgstr ""
+
+#: ../includes/helium-customizer.php:552
+msgid "Use <strong>{category}</strong> for the category name."
+msgstr ""
+
+#: ../includes/helium-customizer.php:556
+msgid "Tag Archive"
+msgstr ""
+
+#: ../includes/helium-customizer.php:559
+msgid "Use <strong>{tag}</strong> for the tag name."
+msgstr ""
+
+#: ../includes/helium-customizer.php:563
+msgid "Author Archive"
+msgstr ""
+
+#: ../includes/helium-customizer.php:566
+msgid "Use <strong>{author}</strong> for the author name."
+msgstr ""
+
+#: ../includes/helium-customizer.php:570
+msgid "Date Archive"
+msgstr ""
+
+#: ../includes/helium-customizer.php:573
+msgid "Use <strong>{date}</strong> for the date."
+msgstr ""
+
+#: ../includes/helium-customizer.php:586 ../includes/helium-customizer.php:591
+msgid "Portfolio"
+msgstr ""
+
+#: ../includes/helium-customizer.php:597
+msgid "Single Item"
+msgstr ""
+
+#: ../includes/helium-customizer.php:620 ../includes/helium-customizer.php:933
+msgid "Show Related Items"
+msgstr ""
+
+#: ../includes/helium-customizer.php:627 ../includes/helium-customizer.php:940
+msgid "Related Items Count"
+msgstr ""
+
+#: ../includes/helium-customizer.php:636 ../includes/helium-customizer.php:949
+msgid "Related Items Behavior"
+msgstr ""
+
+#: ../includes/helium-customizer.php:658
+#: ../includes/helium-theme-options.php:48
+msgid "Portfolio Archive"
+msgstr ""
+
+#: ../includes/helium-customizer.php:665 ../includes/helium-customizer.php:977
+msgid "Page Title"
+msgstr ""
+
+#: ../includes/helium-customizer.php:674 ../includes/helium-customizer.php:986
+msgid "Grid Settings"
+msgstr ""
+
+#: ../includes/helium-customizer.php:689 ../includes/helium-customizer.php:997
+#: ../includes/helium-portfolio.php:28 ../includes/helium-theme-options.php:51
+#: ../includes/helium-theme-options.php:69
+msgid "Load More"
+msgstr ""
+
+#: ../includes/helium-customizer.php:693 ../includes/helium-customizer.php:1001
+#: ../includes/helium-portfolio.php:29 ../includes/helium-theme-options.php:52
+#: ../includes/helium-theme-options.php:70
+msgid "No More Items"
+msgstr ""
+
+#: ../includes/helium-customizer.php:727
+#: ../plugins-config/config-easy-digital-downloads.php:71
+#: ../plugins-config/config-youxi-portfolio.php:385
+msgid "Show Filter"
+msgstr ""
+
+#: ../includes/helium-customizer.php:733 ../includes/helium-customizer.php:1022
+msgid "Pagination"
+msgstr ""
+
+#: ../includes/helium-customizer.php:737 ../includes/helium-customizer.php:1026
+#: ../plugins-config/config-easy-digital-downloads.php:81
+#: ../plugins-config/config-youxi-portfolio.php:395
+msgid "AJAX"
+msgstr ""
+
+#: ../includes/helium-customizer.php:738 ../includes/helium-customizer.php:1027
+#: ../plugins-config/config-easy-digital-downloads.php:82
+#: ../plugins-config/config-youxi-portfolio.php:396
+msgid "Infinite"
+msgstr ""
+
+#: ../includes/helium-customizer.php:739 ../includes/helium-customizer.php:1028
+#: ../plugins-config/config-easy-digital-downloads.php:83
+#: ../plugins-config/config-youxi-portfolio.php:397
+msgid "Numbered"
+msgstr ""
+
+#: ../includes/helium-customizer.php:740 ../includes/helium-customizer.php:1029
+#: ../plugins-config/config-easy-digital-downloads.php:84
+#: ../plugins-config/config-youxi-portfolio.php:398
+msgid "Prev/Next"
+msgstr ""
+
+#: ../includes/helium-customizer.php:741 ../includes/helium-customizer.php:1030
+#: ../plugins-config/config-easy-digital-downloads.php:85
+#: ../plugins-config/config-youxi-portfolio.php:399
+msgid "None (Show all)"
+msgstr ""
+
+#: ../includes/helium-customizer.php:746 ../includes/helium-customizer.php:1035
+#: ../plugins-config/config-easy-digital-downloads.php:92
+#: ../plugins-config/config-youxi-portfolio.php:406
+msgid "AJAX Button Text"
+msgstr ""
+
+#: ../includes/helium-customizer.php:752 ../includes/helium-customizer.php:1041
+#: ../plugins-config/config-easy-digital-downloads.php:99
+#: ../plugins-config/config-youxi-portfolio.php:413
+msgid "AJAX Button Complete Text"
+msgstr ""
+
+#: ../includes/helium-customizer.php:759 ../includes/helium-customizer.php:1048
+msgid "Items per Page"
+msgstr ""
+
+#: ../includes/helium-customizer.php:769 ../includes/helium-customizer.php:1058
+#: ../plugins-config/config-easy-digital-downloads.php:118
+#: ../plugins-config/config-youxi-portfolio.php:432
+msgid "Included Categories"
+msgstr ""
+
+#: ../includes/helium-customizer.php:773 ../includes/helium-customizer.php:1062
+msgid "Uncheck all to include all categories."
+msgstr ""
+
+#: ../includes/helium-customizer.php:777 ../includes/helium-customizer.php:1066
+#: ../plugins-config/config-easy-digital-downloads.php:125
+#: ../plugins-config/config-youxi-portfolio.php:439
+msgid "Behavior"
+msgstr ""
+
+#: ../includes/helium-customizer.php:781 ../includes/helium-customizer.php:1070
+#: ../plugins-config/config-easy-digital-downloads.php:128
+#: ../plugins-config/config-youxi-portfolio.php:442
+#: ../plugins-config/config-youxi-shortcodes.php:504
+msgid "None"
+msgstr ""
+
+#: ../includes/helium-customizer.php:782 ../includes/helium-customizer.php:1071
+#: ../plugins-config/config-easy-digital-downloads.php:129
+#: ../plugins-config/config-youxi-portfolio.php:443
+msgid "Show Image in Lightbox"
+msgstr ""
+
+#: ../includes/helium-customizer.php:783 ../includes/helium-customizer.php:1072
+#: ../plugins-config/config-easy-digital-downloads.php:130
+#: ../plugins-config/config-youxi-portfolio.php:444
+msgid "Go to Detail Page"
+msgstr ""
+
+#: ../includes/helium-customizer.php:788
+#: ../plugins-config/config-youxi-portfolio.php:450
+#: ../plugins-config/config-youxi-portfolio.php:519
+msgid "Order By"
+msgstr ""
+
+#: ../includes/helium-customizer.php:793
+#: ../plugins-config/config-youxi-portfolio.php:454
+#: ../plugins-config/config-youxi-portfolio.php:523
+msgid "Menu Order"
+msgstr ""
+
+#: ../includes/helium-customizer.php:794
+#: ../plugins-config/config-youxi-portfolio.php:455
+#: ../plugins-config/config-youxi-portfolio.php:524
+msgid "Title"
+msgstr ""
+
+#: ../includes/helium-customizer.php:800
+#: ../plugins-config/config-youxi-portfolio.php:463
+#: ../plugins-config/config-youxi-portfolio.php:532
+msgid "Order"
+msgstr ""
+
+#: ../includes/helium-customizer.php:804
+#: ../plugins-config/config-youxi-portfolio.php:466
+#: ../plugins-config/config-youxi-portfolio.php:535
+msgid "Descending"
+msgstr ""
+
+#: ../includes/helium-customizer.php:805
+#: ../plugins-config/config-youxi-portfolio.php:467
+#: ../plugins-config/config-youxi-portfolio.php:536
+msgid "Ascending"
+msgstr ""
+
+#: ../includes/helium-customizer.php:814
+#: ../plugins-config/config-youxi-portfolio.php:478
+msgid "Masonry"
+msgstr ""
+
+#: ../includes/helium-customizer.php:815
+#: ../plugins-config/config-youxi-portfolio.php:477
+msgid "Classic"
+msgstr ""
+
+#: ../includes/helium-customizer.php:816
+#: ../plugins-config/config-youxi-portfolio.php:479
+msgid "Justified"
+msgstr ""
+
+#: ../includes/helium-customizer.php:822
+msgid "Columns (Masonry/Classic)"
+msgstr ""
+
+#: ../includes/helium-customizer.php:840
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: ../includes/helium-customizer.php:845
+msgid "EDD"
+msgstr ""
+
+#: ../includes/helium-customizer.php:851
+#: ../plugins-config/config-youxi-portfolio.php:69
+msgid "General"
+msgstr ""
+
+#: ../includes/helium-customizer.php:867
+msgid "Show Cart in Header"
+msgstr ""
+
+#: ../includes/helium-customizer.php:876
+msgid "Single Downloads"
+msgstr ""
+
+#: ../includes/helium-customizer.php:912
+msgid "Show Categories"
+msgstr ""
+
+#: ../includes/helium-customizer.php:970
+#: ../includes/helium-theme-options.php:67
+msgid "Downloads Archive"
+msgstr ""
+
+#: ../includes/helium-customizer.php:1078
+msgid "Number of Columns"
+msgstr ""
+
+#: ../includes/helium-demo.php:16
+#: ../plugins-config/config-youxi-shortcodes.php:212
+msgid "Default"
+msgstr ""
+
+#: ../includes/helium-entries.php:36
+msgid "Older Posts"
+msgstr ""
+
+#: ../includes/helium-entries.php:41
+msgid "Newer Posts"
+msgstr ""
+
+#: ../includes/helium-nav-menu.php:14
+msgid "Main Menu"
+msgstr ""
+
+#: ../includes/helium-nav-menu.php:46
+msgid "Home"
+msgstr ""
+
+#: ../includes/helium-portfolio.php:101
+msgid "Default Archive"
+msgstr ""
+
+#: ../includes/helium-wp.php:80
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../includes/helium-wp.php:155
+msgid "Header Widget Area"
+msgstr ""
+
+#: ../includes/helium-wp.php:157
+msgid "This is the header widget area."
+msgstr ""
+
+#: ../includes/helium-wp.php:224
+msgid "YouTube"
+msgstr ""
+
+#: ../includes/helium-wp.php:225
+msgid "Vimeo"
+msgstr ""
+
+#: ../includes/helium-wp.php:226
+msgid "tumblr"
+msgstr ""
+
+#: ../includes/helium-wp.php:227
+msgid "Instagram"
+msgstr ""
+
+#: ../includes/helium-wp.php:228
+msgid "Flickr"
+msgstr ""
+
+#: ../includes/helium-wp.php:229
+msgid "dribbble"
+msgstr ""
+
+#: ../includes/helium-wp.php:231
+msgid "Forrst"
+msgstr ""
+
+#: ../includes/helium-wp.php:232
+msgid "VKontakte"
+msgstr ""
+
+#: ../includes/helium-wp.php:235
+msgid "Yahoo!"
+msgstr ""
+
+#: ../includes/helium-wp.php:237
+msgid "SoundCloud"
+msgstr ""
+
+#: ../lib/api/instagram/class-youxi-instagram.php:16
+#: ../lib/api/instagram/class-youxi-instagram.php:117
+msgid "An unknown error has occured."
+msgstr ""
+
+#: ../lib/api/instagram/class-youxi-instagram.php:106
+#, php-format
+msgid "The username <strong>%s</strong> is invalid."
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:64
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:68
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:81
+msgid "sub item"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:96
+msgid "Move up"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:109
+msgid "Move down"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:111
+#: ../lib/framework/class-walker-nav-menu-edit.php:113
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:122
+#: ../plugins-config/config-youxi-portfolio.php:73
+#: ../plugins-config/config-youxi-portfolio.php:161
+#: ../plugins-config/config-youxi-shortcodes.php:663
+msgid "URL"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:129
+msgid "Navigation Label"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:135
+msgid "Title Attribute"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:142
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:147
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:153
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:159
+msgid "Description"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:161
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:172
+#: ../plugins-config/config-youxi-portfolio.php:269
+#: ../plugins-config/config-youxi-post-format.php:86
+msgid "Move"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:173
+msgid "Up one"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:174
+msgid "Down one"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:177
+msgid "To the top"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:184
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../lib/framework/class-walker-nav-menu-edit.php:198
+msgid "Cancel"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-gallery-control.php:57
+msgid "Clear"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-google-font-control.php:75
+#: ../lib/framework/customizer/controls/class-webfont-control.php:297
+msgid "Inherit"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-google-font-control.php:86
+msgid "Select a Font Variant"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-repeater-control.php:97
+msgid "Add Item"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-webfont-control.php:57
+#: ../lib/framework/customizer/controls/class-webfont-control.php:117
+#: ../lib/framework/customizer/controls/class-webfont-control.php:184
+msgid "Family"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-webfont-control.php:59
+#: ../lib/framework/customizer/controls/class-webfont-control.php:119
+#: ../lib/framework/customizer/controls/class-webfont-control.php:186
+msgid "Select a Font Family"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-webfont-control.php:69
+#: ../lib/framework/customizer/controls/class-webfont-control.php:196
+msgid "Variation"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-webfont-control.php:82
+msgid "Websafe"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-webfont-control.php:131
+msgid "Variant"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-webfont-control.php:142
+msgid "Subsets"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-webfont-control.php:157
+msgid "Google Font"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-webfont-control.php:209
+#: ../theme-options.php:40
+msgid "Typekit"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:19 ../lib/importer/class-importer.php:31
+msgid "No nav menu locations updated"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:57
+msgid "Frontpage display settings not imported."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:67
+msgid "The WordPress importer class can't be found."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:98
+msgid "Widgets import data could not be read."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:144
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:166
+msgid "Site does not support widget"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:185
+msgid "Widget already exists"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:234
+msgid "Imported"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:237
+msgid "Imported to Inactive"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:244
+msgid "No Title"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:258
+msgid "Option Tree is not installed, theme options not imported."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:271
+msgid "The supplied theme options data is invalid."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:278
+msgid "Theme options successfully imported."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:300
+msgid "The supplied customizer options data is invalid."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:307
+msgid "Customizer options successfully imported."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:328
+#: ../lib/importer/class-importer.php:480
+msgid "Youxi Demo Content Importer"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:328
+msgid "Youxi Importer"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:367
+msgid "Invalid request."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:374
+msgid "Invalid demo content requested."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:378
+msgid "Invalid import task."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:415
+#, php-format
+msgid "The handler for the task %s is invalid."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:428
+msgid "Importing posts, pages, comments, custom fields, categories, and tags."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:432
+msgid "Importing theme options"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:436
+msgid "Importing customizer options"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:440
+msgid "Importing widgets"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:444
+msgid "Importing front page options"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:448
+msgid "Importing nav menu locations"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:466
+msgid "Import Completed Successfully"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:467
+msgid "Import Completed with {count} Failure(s)"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:468
+msgid ""
+"You have previously imported a demo content, are you sure you want to import "
+"again?"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:469
+msgid ""
+"You haven't finishid importing the demo content. If you leave now, the demo "
+"content will not be imported."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:506
+msgid "Import"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:520
+msgid "There are no available demo content to import."
+msgstr ""
+
+#: ../lib/vendor/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: ../lib/vendor/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: ../lib/vendor/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: ../lib/vendor/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:399
+#: ../lib/vendor/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:400
+#: ../lib/vendor/class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:828
+#: ../lib/vendor/class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:935
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:935
+#: ../lib/vendor/class-tgm-plugin-activation.php:938
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:938
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:1116
+#: ../lib/vendor/class-tgm-plugin-activation.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:1881
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2235
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2280
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2283
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2286
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2289
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2491
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2495
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2500
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3370
+#: ../lib/vendor/class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3370
+#: ../lib/vendor/class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/parsers.php:42
+#: ../lib/vendor/wordpress-importer/parsers.php:72
+#: ../lib/vendor/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/parsers.php:84
+#: ../lib/vendor/wordpress-importer/parsers.php:89
+#: ../lib/vendor/wordpress-importer/parsers.php:279
+#: ../lib/vendor/wordpress-importer/parsers.php:464
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:90
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:99
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:91
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:134
+msgid "All done."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:134
+msgid "Have fun!"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:135
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:156
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:178
+msgid "Import author:"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:189
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:192
+msgid "as a new user:"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:200
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:202
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:203
+msgid "- Select -"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:253
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:304
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:344
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:390
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:531
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:416
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:438
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:497
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:662
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:669
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:732
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:754
+msgid "Invalid file type"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:796
+msgid "The specified local file does not exists"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:802
+msgid "The output file can not be created"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:814
+#, php-format
+msgid "Attachment file is too large, limit is %s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:846
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:852
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:859
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:864
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:870
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:58
+msgid "Page Template: EDD Store"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:65
+#: ../plugins-config/config-youxi-portfolio.php:379
+msgid "Use Default Settings"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:66
+msgid "Switch to use the default Easy Digital Downloads grid settings."
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:72
+msgid "Switch to display the downloads filter."
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:78
+#: ../plugins-config/config-youxi-portfolio.php:392
+msgid "Pagination Type"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:79
+msgid "Specify the downloads pagination type."
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:93
+#: ../plugins-config/config-youxi-portfolio.php:407
+msgid "Specify the text to display on the AJAX load more button."
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:100
+#: ../plugins-config/config-youxi-portfolio.php:414
+msgid ""
+"Specify the text to display on the AJAX load more button when there are no "
+"more items to load."
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:106
+#: ../plugins-config/config-youxi-portfolio.php:420
+msgid "Posts Per Page"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:107
+msgid "Specify how many download items to show per page."
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:119
+msgid ""
+"Specify the download categories to include (leave unchecked to include all)."
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:126
+#: ../plugins-config/config-youxi-portfolio.php:440
+msgid "Specify the behavior when clicking the thumbnail image."
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:136
+#: ../plugins-config/config-youxi-portfolio.php:486
+msgid "Columns"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:137
+msgid "Specify in how many columns the items should be displayed."
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:176
+#: ../plugins-config/config-youxi-portfolio.php:105
+msgid "Show Title"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:177
+msgid "Switch to show/hide the download title before the content."
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:216
+msgid "Turquoise"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:220
+msgid "White"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:224
+msgid "Blue"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:228
+msgid "Red"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:232
+msgid "Green"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:236
+msgid "Orange"
+msgstr ""
+
+#: ../plugins-config/config-easy-digital-downloads.php:240
+msgid "Dark Gray"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:24
+msgid "Page Layout"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:25
+msgid ""
+"Specify the layout of the page (does not have any effect on custom page "
+"templates)."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:34
+msgid "Wrap Content"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:35
+msgid ""
+"Switch to automatically wrap the post content inside a container. Switch off "
+"to use advanced row layouts."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:74
+msgid "Enter here the portfolio URL."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:80
+#: ../plugins-config/config-youxi-portfolio.php:162
+msgid "Client"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:81
+msgid "Enter here the portfolio client."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:86
+msgid "Client URL"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:87
+msgid "Enter here the portfolio client url."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:92
+msgid "Featured"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:93
+msgid ""
+"Switch to mark the portfolio as featured and show it on the portfolio slider."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:106
+msgid "Switch to show/hide the portfolio title before the content."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:111
+msgid "Portfolio Page Layout"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:112
+msgid "Specify the layout of the portfolio page."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:122
+msgid "Portfolio Archive Page"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:123
+msgid "Choose the archive page of this portfolio item."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:130
+msgid "Portfolio Media Layout"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:131
+msgid "Specify how the portfolio media is displayed."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:133
+#: ../plugins-config/config-youxi-shortcodes.php:231
+msgid "Top"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:134
+#: ../plugins-config/config-youxi-portfolio.php:145
+#: ../plugins-config/config-youxi-shortcodes.php:200
+msgid "Left"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:135
+#: ../plugins-config/config-youxi-portfolio.php:146
+#: ../plugins-config/config-youxi-shortcodes.php:202
+msgid "Right"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:141
+msgid "Portfolio Details Layout"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:142
+msgid ""
+"Specify how the portfolio details is displayed. Choosing left or right for "
+"media position will move the details to the bottom."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:144
+msgid "Hidden"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:153
+msgid "Specify the portfolio details to show."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:157
+msgid "Detail Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:158
+msgid "Choose the portfolio detail type."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:160
+#: ../templates/download/entry.php:140
+msgid "Categories"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:163
+msgid "Share"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:164
+msgid "Custom"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:170
+#: ../plugins-config/config-youxi-shortcodes.php:390
+msgid "Label"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:171
+msgid "Enter the detail label."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:176
+msgid "Custom Value"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:177
+msgid "Enter the custom detail value."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:191
+msgid "Media"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:195
+msgid "Media Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:196
+msgid "Choose the type of media to display."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:198
+msgid "Featured Image"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:199
+msgid "Stacked Images"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:200
+#: ../plugins-config/config-youxi-post-format.php:19
+msgid "Slider"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:201
+msgid "Justified Grids"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:202
+msgid "Video"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:203
+msgid "Audio"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:209
+#: ../plugins-config/config-youxi-post-format.php:26
+msgid "Slider: Auto Height"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:210
+#: ../plugins-config/config-youxi-post-format.php:27
+msgid "Switch to automatically update slider height based on each slide."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:216
+#: ../plugins-config/config-youxi-post-format.php:33
+msgid "Slider: Aspect Ratio"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:217
+#: ../plugins-config/config-youxi-post-format.php:34
+msgid "Specify the slider aspect ratio when auto height is disabled."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:223
+#: ../plugins-config/config-youxi-post-format.php:40
+msgid "Slider: Image Scale Mode"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:224
+#: ../plugins-config/config-youxi-post-format.php:41
+msgid "Specify the slider image scaling mode."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:226
+#: ../plugins-config/config-youxi-post-format.php:43
+msgid "Fill"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:227
+#: ../plugins-config/config-youxi-post-format.php:44
+msgid "Fit"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:234
+#: ../plugins-config/config-youxi-post-format.php:51
+msgid "Slider: Navigation Bullets"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:235
+#: ../plugins-config/config-youxi-post-format.php:52
+msgid "Switch to toggle the slider navigation bullets."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:241
+#: ../plugins-config/config-youxi-post-format.php:58
+msgid "Slider: Navigation Arrows"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:242
+#: ../plugins-config/config-youxi-post-format.php:59
+msgid "Switch to toggle the slider navigation arrows."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:248
+#: ../plugins-config/config-youxi-post-format.php:65
+msgid "Slider: Loop"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:249
+#: ../plugins-config/config-youxi-post-format.php:66
+msgid "Switch to allow the slider to go to the first from the last slide."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:255
+#: ../plugins-config/config-youxi-post-format.php:72
+msgid "Slider: Orientation"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:256
+#: ../plugins-config/config-youxi-post-format.php:73
+msgid "Specify the slider orientation."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:258
+#: ../plugins-config/config-youxi-post-format.php:75
+msgid "Vertical"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:259
+#: ../plugins-config/config-youxi-post-format.php:76
+msgid "Horizontal"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:266
+#: ../plugins-config/config-youxi-post-format.php:83
+msgid "Slider: Transition Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:267
+#: ../plugins-config/config-youxi-post-format.php:84
+msgid "Specify the slider transition type."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:270
+#: ../plugins-config/config-youxi-post-format.php:87
+msgid "Fade"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:277
+#: ../plugins-config/config-youxi-post-format.php:94
+msgid "Slider: Transition Speed"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:278
+#: ../plugins-config/config-youxi-post-format.php:95
+msgid "Specify the slider transition speed."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:289
+msgid "Images"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:290
+msgid "Choose here the images to use."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:296
+msgid "Video Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:297
+msgid "Choose here the video type."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:299
+msgid "Embedded (YouTube/Vimeo)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:300
+#: ../plugins-config/config-youxi-portfolio.php:332
+msgid "Hosted"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:307
+msgid "Video Embed Code (YouTube/Vimeo)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:308
+msgid "Enter here the video embed code (YouTube/Vimeo)."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:314
+msgid "Video Source"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:316
+msgid "Choose here the hosted video source."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:322
+msgid "Video Poster"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:323
+msgid ""
+"Upload here an image that will be used either as the poster or fallback for "
+"unsupported devices."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:328
+msgid "Audio Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:329
+msgid "Choose here the audio type."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:331
+msgid "Embedded (SoundCloud)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:339
+msgid "Embed Code (SoundCloud)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:340
+msgid "Enter here the audio embed code (SoundCloud)."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:346
+msgid "Audio Source"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:348
+msgid "Choose here the hosted audio source."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:372
+msgid "Page Template: Portfolio"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:380
+msgid "Switch to use the default portfolio grid settings."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:386
+msgid "Switch to display the portfolio filter."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:393
+msgid "Specify the portfolio pagination type."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:421
+msgid "Specify how many portfolio items to show per page."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:433
+msgid ""
+"Specify the portfolio categories to include (leave unchecked to include all)."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:451
+#: ../plugins-config/config-youxi-portfolio.php:520
+msgid "Specify in what order the items should be displayed."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:464
+#: ../plugins-config/config-youxi-portfolio.php:533
+msgid "Specify how to order the items."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:475
+msgid "Specify the portfolio layout."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:487
+msgid ""
+"Specify in how many columns the items should be displayed in the masonry/"
+"classic layout."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:501
+msgid "Page Template: Portfolio Slider"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:508
+msgid "Number of Slides"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:509
+msgid "Specify how many portfolio items to show on the slider."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:526
+msgid "Random"
+msgstr ""
+
+#: ../plugins-config/config-youxi-post-format.php:16
+msgid "Gallery Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-post-format.php:17
+msgid "Choose the gallery type for this post."
+msgstr ""
+
+#: ../plugins-config/config-youxi-post-format.php:20
+msgid "Justified Gallery"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:197
+msgid "Heading Alignment"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:198
+msgid "Choose here the heading text alignment."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:201
+msgid "Center"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:209
+msgid "Heading Style"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:210
+msgid "Choose the heading style."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:213
+msgid "Bordered"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:214
+msgid "Striped"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:220
+msgid "Uppercase Letters"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:221
+msgid "Switch to make the text uppercase."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:227
+msgid "Remove Margins"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:229
+msgid "Choose here which margins to remove from the heading."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:232
+msgid "Bottom"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:251
+#: ../plugins-config/config-youxi-shortcodes.php:512
+#: ../plugins-config/config-youxi-shortcodes.php:561
+msgid "Extra CSS Classes"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:252
+msgid "Enter here your custom CSS classes to apply to the heading."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:270
+msgid "Styling"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:360
+msgid "Subtitle"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:361
+msgid "Specify the subtitle to show below the title."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:391
+msgid "Enter here the progressbar label."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:501
+msgid "Wrap Mode"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:502
+msgid ""
+"Choose the row wrapping method. When choosing values other than `none`, make "
+"sure the page layout setting has `Wrap Content` disabled."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:506
+msgid "Inner"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:513
+msgid "Enter here your custom CSS classes to apply to the row."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:550
+msgid "Separator Size"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:551
+msgid "Choose the height of the separator."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:562
+msgid "Enter here your custom CSS classes to apply to the separator."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:650
+msgid "Social Profiles"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:651
+msgid "Specify the social profiles of this team member."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:657
+msgid "Icon"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:659
+msgid "Choose here the profile icon."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:664
+msgid "Enter here the profile URL."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:697
+msgid "Social"
+msgstr ""
+
+#: ../search.php:12 ../search.php:32
+#, php-format
+msgid "Search Results for &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../search.php:42
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../searchform.php:2
+msgid "To search type &amp; hit enter"
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Type a keyword and hit enter to start searching. Press Esc to cancel."
+msgstr ""
+
+#: ../single-post.php:24
+msgid "Previous Post"
+msgstr ""
+
+#: ../single-post.php:30
+msgid "Next Post"
+msgstr ""
+
+#: ../templates/download/entry.php:20 ../templates/download/entry.php:43
+msgid "Previous"
+msgstr ""
+
+#: ../templates/download/entry.php:27 ../templates/download/entry.php:78
+msgid "Next"
+msgstr ""
+
+#: ../templates/download/entry.php:160
+msgid "Share This"
+msgstr ""
+
+#: ../templates/download/related.php:16
+msgid "Related Downloads"
+msgstr ""
+
+#: ../templates/portfolio/entry.php:64 ../templates/portfolio/entry.php:87
+msgid "Older"
+msgstr ""
+
+#: ../templates/portfolio/entry.php:71 ../templates/portfolio/entry.php:122
+msgid "Newer"
+msgstr ""
+
+#: ../templates/portfolio/related.php:16
+msgid "Related Items"
+msgstr ""
+
+#: ../templates/post/entry.php:24 ../templates/post/entry.php:28
+msgid "Continue Reading &rarr;"
+msgstr ""
+
+#: ../templates/post/parts/author.php:21
+#, php-format
+msgid "Visit %s&#8217;s website"
+msgstr ""
+
+#: ../templates/post/parts/header.php:31
+msgid "Sticky"
+msgstr ""
+
+#: ../templates/post/parts/related.php:9
+msgid "Related Posts"
+msgstr ""
+
+#: ../theme-options.php:32
+msgid "AddThis"
+msgstr ""
+
+#: ../theme-options.php:36
+msgid "AJAX Navigation"
+msgstr ""
+
+#: ../theme-options.php:44
+msgid "API Keys"
+msgstr ""
+
+#: ../theme-options.php:48
+msgid "Post Type Slugs"
+msgstr ""
+
+#: ../theme-options.php:52 ../theme-options.php:281
+msgid "Envato Credentials"
+msgstr ""
+
+#: ../theme-options.php:56
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../theme-options.php:62
+msgid "Sharing Buttons"
+msgstr ""
+
+#: ../theme-options.php:63
+msgid ""
+"Enter a comma separated list of AddThis social media sharing buttons to show "
+"at the end of each item page.\n"
+"See this for available buttons: <a href=\"http://www.addthis.com/services/"
+"list\">www.addthis.com/services/list</a>"
+msgstr ""
+
+#: ../theme-options.php:78
+msgid "Profile ID"
+msgstr ""
+
+#: ../theme-options.php:79
+msgid ""
+"Specify here your AddThis profile ID if you want to track your AddThis "
+"sharing data."
+msgstr ""
+
+#: ../theme-options.php:93
+msgid "Enabled"
+msgstr ""
+
+#: ../theme-options.php:94
+msgid ""
+"Specify whether to enable sitewide AJAX navigation to enhance the user "
+"experience. Turn this off if you're experiencing problems while viewing your "
+"site."
+msgstr ""
+
+#: ../theme-options.php:108
+msgid "Scroll to Top Before Navigation"
+msgstr ""
+
+#: ../theme-options.php:109
+msgid ""
+"Specify whether to scroll to top of the page before navigating away from a "
+"page."
+msgstr ""
+
+#: ../theme-options.php:123
+msgid "Loading Text"
+msgstr ""
+
+#: ../theme-options.php:124
+msgid "Specify the text to show while a page is being loaded."
+msgstr ""
+
+#: ../theme-options.php:138
+msgid "Exclude URLs"
+msgstr ""
+
+#: ../theme-options.php:139
+msgid ""
+"Specify here a list of URLs on each line where AJAX navigation should be "
+"disabled."
+msgstr ""
+
+#: ../theme-options.php:153
+msgid "Typekit Kit ID"
+msgstr ""
+
+#: ../theme-options.php:154
+msgid "Enter here your Typekit Kit ID."
+msgstr ""
+
+#: ../theme-options.php:168
+msgid "Cache"
+msgstr ""
+
+#: ../theme-options.php:169
+msgid ""
+"Turn off Typekit data cache to always update your kit data. It's useful when "
+"developing the site but make sure to turn it back on in production mode."
+msgstr ""
+
+#: ../theme-options.php:183
+msgid "Twitter API Keys"
+msgstr ""
+
+#: ../theme-options.php:184
+msgid ""
+"Before using Twitter widgets throughout the site, you need to register your "
+"API keys by following the instructions below.\n"
+"<ol>\n"
+"  <li>Go to <a>http://dev.twitter.com/apps</a> and sign in with your Twitter "
+"account.</li>\n"
+"  <li>Create a new application by clicking the button on the right hand side."
+"</li>\n"
+"  <li>Once you've created the app, scroll down the application's details "
+"page to find the OAuth section.</li>\n"
+"  <li>Copy the consumer secret and consumer key into the fields below.</li>\n"
+"  <li>Then click the Create Access Token button at the bottom of the page.</"
+"li>\n"
+"  <li>Copy the Access token and Access token secret and paste it into the "
+"fields below.</li>\n"
+"</ol>"
+msgstr ""
+
+#: ../theme-options.php:206
+msgid "Twitter API Consumer Key"
+msgstr ""
+
+#: ../theme-options.php:221
+msgid "Twitter API Consumer Secret"
+msgstr ""
+
+#: ../theme-options.php:236
+msgid "Twitter API Access Token"
+msgstr ""
+
+#: ../theme-options.php:251
+msgid "Twitter API Access Token Secret"
+msgstr ""
+
+#: ../theme-options.php:266
+msgid "Portfolio Slug"
+msgstr ""
+
+#: ../theme-options.php:267
+msgid ""
+"Specify here the portfolio post type slug. Default is <strong>portfolio</"
+"strong>."
+msgstr ""
+
+#: ../theme-options.php:282
+msgid ""
+"Enter your Envato Market credentials below to access the demo content "
+"importer and get automatic theme update notifications directly from "
+"WordPress admin."
+msgstr ""
+
+#: ../theme-options.php:296
+msgid "Envato Username"
+msgstr ""
+
+#: ../theme-options.php:311
+msgid "Envato API Key"
+msgstr ""
+
+#: ../theme-options.php:326
+msgid "Custom CSS"
+msgstr ""
+
+#: ../theme-options.php:327
+msgid "Enter here your custom CSS code to be applied to the whole site."
+msgstr ""

@@ -1,0 +1,156 @@
+
+/* ==========================================================================
+	15. RoyalSlider
+============================================================================= */
+
+.content-area {
+	.royalSlider {
+		width: 100%;
+		height: auto;
+	}
+	&.fullscreen .royalSlider {
+		height: 100%;
+	}
+}
+
+.rsHelium {
+	.rsArrow {
+		.size(32px; 32px);
+		position: absolute;
+		display: block;
+		cursor: pointer;
+		z-index: 21;
+	}
+
+	&.rsVer {
+		.rsArrow {
+			left: 50%;
+			margin-left: -16px;
+		}
+
+		.rsArrowLeft {
+			top: 10px;
+			.rsArrowIcn:after {
+				margin-top: -1.5px;
+				.rotate(315deg);
+			}
+		}
+
+		.rsArrowRight {
+			bottom: 10px;
+			.rsArrowIcn:after {
+				margin-top: -4.5px;
+				.rotate(135deg);
+			}
+		}
+	}
+
+	&.rsHor {
+		.rsArrow {
+			top: 50%;
+			margin-top: -16px;
+		}
+
+		.rsArrowLeft {
+			left: 10px;
+			.rsArrowIcn:after {
+				margin-left: -1.5px;
+				.rotate(225deg);
+			}
+		}
+
+		.rsArrowRight {
+			right: 10px;
+			.rsArrowIcn:after {
+				margin-left: -4.5px;
+				.rotate(45deg);
+			}
+		}
+	}
+
+	.rsArrowIcn {		
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		border-radius: 3px;
+		opacity: 0.6;
+		.transition(opacity .2s ease-out);
+
+		&:hover {
+			opacity: 1;
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			left: 50%; top: 50%;
+			width: 6px;
+			height: 6px;
+			margin-top: -3px;
+			margin-left: -3px;
+			border: solid #000;
+			border-width: 1px 1px 0 0;
+		}
+	}	
+
+	.rsArrowDisabled {
+		cursor: default;
+		.rsArrowIcn {
+			opacity: 0.2;
+		}
+	}
+
+	.rsBullets {
+		position: absolute;
+		z-index: 35;
+		left: 0;
+		bottom: 15px;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		line-height: 1;
+
+		text-align: center;
+		overflow: hidden;
+	}
+
+	.rsBullet {
+		display: inline-block;
+		vertical-align: top;
+		width: 14px;
+		height: 14px;
+		outline: 0;
+		position: relative;
+		z-index: 399;
+		text-indent: -9999px;
+		cursor: pointer;
+
+		span {
+			left: 50%; top: 50%;
+			.size(4px, 4px);
+			border: 2px solid #fff;
+			border-radius: 50%;
+			position: absolute;
+			.translate(-50%, -50%);
+			.transition(all 0.25s linear);
+		}
+
+		+ .rsBullet {
+			margin-left: 5px;
+		}
+
+		&.rsNavSelected span {
+			.size(14px, 14px);
+		}
+	}
+
+	.rsPreloader {
+		width: 32px;
+		height: 32px;
+		background-position: 50%;
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 50%; top: 50%;
+		margin: -16px 0 0 -16px;
+	}
+}

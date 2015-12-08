@@ -1,0 +1,467 @@
+
+/* ==========================================================================
+	13.1 Base Widget Styling
+============================================================================= */
+
+.widget {
+	padding-top: 35px;
+}
+
+.widget-title {
+	margin: 0 0 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+/* ==========================================================================
+	13.2 Widget Form Elements
+============================================================================= */
+
+.widget {
+	select, 
+	textarea, 
+	input[type="text"], 
+	input[type="password"], 
+	input[type="datetime"], 
+	input[type="datetime-local"], 
+	input[type="date"], 
+	input[type="month"], 
+	input[type="time"], 
+	input[type="week"], 
+	input[type="number"], 
+	input[type="email"], 
+	input[type="url"], 
+	input[type="search"], 
+	input[type="tel"], 
+	input[type="color"] {
+		display: block;
+		width: 100%;
+		height: @input-height-base;
+		padding: @padding-base-vertical @padding-base-horizontal;
+		font-size: @font-size-base;
+		line-height: @line-height-base;
+		color: @input-color;
+		background-color: @input-bg;
+		background-image: none;
+		border: 1px solid @input-border;
+		border-radius: @input-border-radius;
+		.transition(~"border-color ease-in-out .15s, box-shadow ease-in-out .15s");
+
+		&:focus {
+			border-color: @input-border-focus;
+			outline: 0;
+		}
+
+		// Placeholder
+		.placeholder();
+
+		// Disabled and read-only inputs
+		//
+		// HTML5 says that controls under a fieldset > legend:first-child won't be
+		// disabled if the fieldset is disabled. Due to implementation difficulty, we
+		// don't honor that edge case; we style them as disabled anyway.
+		&[disabled],
+		&[readonly] {
+			background-color: @input-bg-disabled;
+			opacity: 1;
+		}
+
+		&[disabled] {
+			cursor: @cursor-disabled;
+		}
+	}
+
+	textarea {
+		height: auto;
+	}
+}
+
+/* ==========================================================================
+	13.3 WordPress Widgets
+============================================================================= */
+
+.widget_calendar table {
+	width: 100%;
+	border: 1px solid @table-border-color;
+
+	caption {
+		text-align: center;
+		padding-top: 0;
+		font-size: @font-size-small;
+	}
+
+	th, td {
+		border: 1px solid @table-border-color;
+		padding: @table-condensed-cell-padding;
+		line-height: @line-height-base;
+		vertical-align: top;
+		text-align: center;
+	}
+
+	thead th {
+		border-bottom: 1px solid @table-border-color;
+		background-color: @table-bg-accent;
+		color: @text-muted;
+	}
+}
+
+.widget_archive, 
+.widget_categories, 
+.widget_nav_menu, 
+.widget_meta, 
+.widget_pages, 
+.widget_recent_comments, 
+.widget_recent_entries, 
+.widget_rss {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			margin: 4px 0;
+		}
+		ul {
+			padding-left: 1em;
+		}
+	}
+}
+
+.widget_categories, 
+.widget_archive {
+	.screen-reader-text {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		padding: 0;
+		overflow: hidden;
+		clip: rect(0,0,0,0);
+		border: 0;
+	}
+}
+
+.widget_tag_cloud .tagcloud {
+	font-size: 0;
+	a {
+		display: inline-block;
+		vertical-align: top;
+		font-size: @font-size-small !important;
+		line-height: 20px;
+		padding: 4px 15px;
+		margin: 0 5px 5px 0;
+		color: inherit;
+		border: 1px solid @base-border-color;
+		.transition(all .3s ease);
+		&:hover {
+			color: #fff;
+			border-color: @brand-primary;
+			background-color: @brand-primary;
+		}
+	}
+}
+
+.widget_text {
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+/* ==========================================================================
+	13.3 Post List Widget
+============================================================================= */
+
+.post-list-entry + .post-list-entry {
+	margin-top: 20px;
+}
+
+.post-list-media {
+	float: left;
+	width: 64px;
+	height: 64px;
+	margin-right: 16px;
+}
+
+.post-list-info {
+	overflow: hidden;
+}
+
+.post-list-title {
+	margin: 0;
+	a {
+		color: @headings-color;
+		&:hover {
+			color: @brand-primary;
+		}
+	}
+}
+.post-list-time {
+	color: @text-muted;
+	font-size: @font-size-small;
+	font-style: italic;
+}
+
+/* ==========================================================================
+	13.4 Social List Widget
+============================================================================= */
+
+.social-list {
+	ul {
+		margin-bottom: -4px;
+	}
+
+	li {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 4px 4px 0;
+		> a {
+			display: block;
+			text-align: center;
+			color: #fff;
+			background-color: #000;
+			border-radius: 3px;
+			margin: 0;
+			padding: 0;
+			border: none;
+
+			&, .fa, .socicon {
+				.size(30px, 30px);
+				line-height: 30px;
+			}
+		}
+
+		&.social-twitter > a {
+			background-color: @color-twitter;
+			&:hover {
+				background-color: darken(@color-twitter, 15%);
+			}
+		}
+		&.social-facebook > a {
+			background-color: @color-facebook;
+			&:hover {
+				background-color: darken(@color-facebook, 15%);
+			}
+		}
+		&.social-googleplus > a {
+			background-color: @color-google;
+			&:hover {
+				background-color: darken(@color-google, 15%);
+			}
+		}
+		&.social-pinterest > a {
+			background-color: @color-pinterest;
+			&:hover {
+				background-color: darken(@color-pinterest, 15%);
+			}
+		}
+		&.social-linkedin > a {
+			background-color: @color-linkedin;
+			&:hover {
+				background-color: darken(@color-linkedin, 15%);
+			}
+		}
+		&.social-youtube > a {
+			background-color: @color-youtube;
+			&:hover {
+				background-color: darken(@color-youtube, 15%);
+			}
+		}
+		&.social-vimeo > a {
+			background-color: @color-vimeo;
+			&:hover {
+				background-color: darken(@color-vimeo, 15%);
+			}
+		}
+		&.social-tumblr > a {
+			background-color: @color-tumblr;
+			&:hover {
+				background-color: darken(@color-tumblr, 15%);
+			}
+		}
+		&.social-instagram > a {
+			background-color: @color-instagram;
+			&:hover {
+				background-color: darken(@color-instagram, 15%);
+			}
+		}
+		&.social-flickr > a {
+			background-color: @color-flickr;
+			&:hover {
+				background-color: darken(@color-flickr, 15%);
+			}
+		}
+		&.social-dribbble > a {
+			background-color: @color-dribbble;
+			&:hover {
+				background-color: darken(@color-dribbble, 15%);
+			}
+		}
+		&.social-foursquare > a {
+			background-color: @color-foursquare;
+			&:hover {
+				background-color: darken(@color-foursquare, 15%);
+			}
+		}
+		&.social-forrst > a {
+			background-color: @color-forrst;
+			&:hover {
+				background-color: darken(@color-forrst, 15%);
+			}
+		}
+		&.social-vkontakte > a {
+			background-color: @color-vkontakte;
+			&:hover {
+				background-color: darken(@color-vkontakte, 15%);
+			}
+		}
+		&.social-wordpress > a {
+			background-color: @color-wordpress;
+			&:hover {
+				background-color: darken(@color-wordpress, 15%);
+			}
+		}
+		&.social-stumbleupon > a {
+			background-color: @color-stumbleupon;
+			&:hover {
+				background-color: darken(@color-stumbleupon, 15%);
+			}
+		}
+		&.social-yahoo > a {
+			background-color: @color-yahoo;
+			&:hover {
+				background-color: darken(@color-yahoo, 15%);
+			}
+		}
+		&.social-blogger > a {
+			background-color: @color-blogger;
+			&:hover {
+				background-color: darken(@color-blogger, 15%);
+			}
+		}
+		&.social-soundcloud > a {
+			background-color: @color-soundcloud;
+			&:hover {
+				background-color: darken(@color-soundcloud, 15%);
+			}
+		}
+	}
+
+	&.small li {
+		> a {
+			font-size: @font-size-small;
+			&, .fa, .socicon {
+				.size(24px, 24px);
+				line-height: 24px;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+   12.5 Instagram & Flickr Widget
+============================================================================= */
+
+.flickr-feed, 
+.instagram-feed {
+	ul {
+		&:extend(ul.plain-list all);
+		margin-left: -10px;
+		margin-bottom: -10px;
+	}
+	
+	li {
+		display: inline-block;
+		vertical-align: top;
+		width: 54.75px;
+		padding-left: 8px;
+		padding-bottom: 8px;
+
+		a {
+			position: relative;
+			display: block;
+			padding-top: 100%;
+			margin-bottom: 0;
+
+			> img {
+				position: absolute;
+				top: 0; left: 0;
+				max-width: none;
+				width: 100%;
+			}
+
+			&:before, &:after {
+				content: '';
+				background-color: #000;
+				position: absolute;
+				z-index: 1;
+				left: 50%;
+				top: 50%;
+				opacity: 0;
+			}
+
+			&:before, &:after, > img {
+				.transition(opacity .35s ease-out);
+			}
+
+			&:before {
+				width: 1px;
+				height: 16px;
+				margin-top: -8px;
+			}
+
+			&:after {
+				width: 16px;
+				height: 1px;
+				margin-left: -8px;
+			}
+
+			&:hover {
+				&:before, &:after {
+					opacity: 1;
+				}
+				> img {
+					opacity: 0.6;
+				}
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+	13.5 Twitter Widget
+============================================================================= */
+
+.twitter-feed {
+	ul {
+		&:extend(ul.plain-list);
+		li + li {
+			margin-top: 20px;
+		}
+	}
+
+	.twitter-avatar, 
+	.twitter-intents {
+		display: none;
+	}
+
+	.twitter-info, 
+	.twitter-text {
+		display: block;
+	}
+
+	.twitter-name {
+		font-size: @font-size-h6;
+		&:after {
+			content: '\0020\2014\0020';
+			color: @text-muted;
+		}
+	}
+
+	.twitter-user {
+		color: @text-muted;
+	}
+
+	.twitter-time {
+		color: @text-muted;
+		font-size: 11px;
+	}
+}

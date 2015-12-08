@@ -1,0 +1,191 @@
+
+/* ==========================================================================
+	7.1 Post Header
+============================================================================= */
+
+.post-header {
+	+ .post-entry {
+		.content-wrap-inner {
+			padding-top: 0;
+		}
+	}
+}
+
+/* ==========================================================================
+	7.2 Post Meta
+============================================================================= */
+
+.post-date {
+	display: block;
+	color: @post-date-color;
+	font-size: @post-date-font-size;
+}
+
+.post-meta {
+	font-size: @post-meta-font-size;
+	color: @post-meta-color;
+	.post-meta-list {
+		li {
+			vertical-align: top;
+			margin-right: @post-meta-list-horizontal-margin;
+			a {
+				color: @post-meta-color;
+			}
+			.slicon, .fa {
+				display: inline-block;
+				margin-right: @post-meta-list-icon-margin;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+	7.3 Post Title
+============================================================================= */
+
+.post-title {
+	margin: .2em 0;
+	a {
+		color: @headings-color;
+		&:hover {
+			color: @brand-primary;
+		}
+	}
+}
+
+/* ==========================================================================
+	7.4 Post Media
+============================================================================= */
+
+.post .post-media {
+	img {
+		width: 100%;
+	}
+}
+
+/* ==========================================================================
+	7.5 Post Section
+============================================================================= */
+
+.post {
+	&.sticky {
+		color: inherit;
+	}
+
+	.post-entry {
+		section {
+			padding: @content-wrap-inner-padding-vert * 0.45 0;
+
+			&:last-child {
+				padding-bottom: 0;
+			}
+			
+			+ section {
+				border-top: 1px dotted @dotted-border-color;
+			}
+
+			&.post-body {
+				padding: 0;
+				+ section {
+					margin-top: @content-wrap-inner-padding-vert;
+					border-top-style: solid;
+					border-top-color: @base-border-color;
+				}
+			}
+
+			&.post-sharing, &.posts-pages-nav, &.post-tags {
+				padding: @content-wrap-inner-padding-vert / 4 0;
+			}
+		}
+	}
+
+	.post-section-title {
+		margin: 0 0 @content-wrap-inner-padding-vert * 0.3;
+	}
+}
+
+/* ==========================================================================
+	7.6 Post Body
+============================================================================= */
+
+.more-link-wrap {
+	margin-top: @content-wrap-inner-padding-vert / 2;
+	padding-top: @content-wrap-inner-padding-vert / 2;
+	border-top: 1px dotted @dotted-border-color;
+	
+	.more-link {
+		display: inline-block;
+		color: @text-color;
+	}
+}
+
+/* ==========================================================================
+	7.7 Post Tags
+============================================================================= */
+
+.post-tags {
+	a {
+		position: relative;
+		z-index: 1;
+		display: inline-block;
+		padding: 0 15px;
+		font-size: @font-size-base;
+		line-height: 2;
+		background-color: #f8f8f8;
+		border-radius: 3px;
+		margin-right: 1.4142135623730950488016887242097em;
+		color: @text-muted;
+		&:hover {
+			color: #fff;
+			background-color: @brand-primary;
+		}
+		&:after {
+			content: '';
+			z-index: -1;
+			width: 1.4142135623730950488016887242097em;
+			height: 1.4142135623730950488016887242097em;
+			background-color: inherit;
+			border-radius: inherit;
+			.rotate(45deg);
+			position: absolute;
+			margin-right: 1.5px;
+			top: 0.29289321881345247559915563789515em;
+			right: -0.70710678118654752440084436210485em;
+		}
+		&:before {
+			content: '';
+			width: 0.28571428571428571428571428571429em;
+			height: 0.28571428571428571428571428571429em;
+			background-color: #fff;
+			border-radius: 50%;
+			position: absolute;
+			top: 50%;
+			margin-top: -0.14285714285714285714285714285714em;
+			margin-left: -0.14285714285714285714285714285714em;
+			left: 100%;
+		}
+	}
+}
+
+/* ==========================================================================
+	7.8 Entry Author
+============================================================================= */
+
+.entry-author {
+	.entry-author-avatar {
+		float: left;
+		width: @entry-author-avatar-width;
+		margin-right: @entry-author-avatar-margin;
+	}
+
+	.entry-author-info {
+		overflow: hidden;
+	}
+
+	.entry-author-name {
+		margin: 0 0 8px;
+	}
+}

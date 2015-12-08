@@ -1,0 +1,29 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">layout</custom-field>
+		<custom-field action="translate">general</custom-field>
+		<custom-field action="copy">media</custom-field>
+		<custom-field action="translate">portfolio_grid_settings</custom-field>
+		<custom-field action="translate">portfolio_slider_settings</custom-field>
+		<custom-field action="translate">edd_grid_settings</custom-field>
+	</custom-fields>
+	<admin-texts>
+		<key name="theme_mods_helium">
+			<key name="helium_settings">
+				<key name="copyright_text"/>
+				<key name="blog_index_title"/>
+				<key name="blog_single_title"/>
+				<key name="blog_category_title"/>
+				<key name="blog_tag_title"/>
+				<key name="blog_author_title"/>
+				<key name="blog_date_title"/>
+				<key name="portfolio_archive_page_title"/>
+				<key name="portfolio_grid_ajax_button_text"/>
+				<key name="portfolio_grid_ajax_button_complete_text"/>
+				<key name="edd_archive_page_title"/>
+				<key name="edd_grid_ajax_button_text"/>
+				<key name="edd_grid_ajax_button_complete_text"/>
+			</key>
+		</key>
+	</admin-texts>
+</wpml-config>

@@ -1,0 +1,194 @@
+
+// Layout variables
+
+@base-border-color: #f0f0f0;
+@dotted-border-color: #e0e0e0;
+
+@content-spacing: 20px;
+@content-spacing-md: 30px;
+
+
+// Admin bar
+
+@admin-bar-height-mobile: 46px;
+@admin-bar-height: 32px;
+
+
+// Typography
+
+@quote-blockquote-font-family: @font-family-serif;
+@quote-blockquote-font-style: italic;
+@quote-blockquote-font-size: 24px;
+
+
+// Header variables
+
+@header-bg: #ffffff;
+@header-font-size-base: 13px;
+
+@header-content-top-height: 80px;
+@header-content-width: 290px;
+
+@header-content-top-padding: 20px @header-content-top-height;
+@header-content-bottom-padding: @header-content-top-height 35px 40px;
+
+@header-content-top-padding-md: 40px 35px;
+@header-content-bottom-padding-md: 0 35px 40px;
+
+
+// Navigation variables
+
+@main-nav-link-font-size: @header-font-size-base;
+@main-nav-link-font-family: @headings-font-family;
+@main-nav-link-font-weight: 700;
+@main-nav-link-color: @headings-color;
+
+
+// Content header variables
+
+@content-header-height: 60px;
+@content-header-bg: #ffffff;
+
+@content-title-z-index: 345;
+@content-title-font-size: 17px;
+@content-title-line-height: 1.52941176470588235294;
+
+
+// Content nav variables
+
+@content-nav-height: 44px;
+@content-nav-height-md: 60px;
+@content-nav-font-size: 13px;
+@content-nav-font-family: @headings-font-family;
+@content-nav-font-weight: 700;
+@content-nav-color: @headings-color;
+@content-nav-link-padding: 0 20px;
+
+
+// Content variables
+
+@content-wrap-z-index: 344;
+
+@content-wrap-inner-padding-vert: 40px;
+@content-wrap-inner-padding-vert-xs: 65px;
+@content-wrap-inner-padding-vert-sm: 75px;
+@content-wrap-inner-padding-vert-md: 85px;
+
+@content-wrap-inner-padding-horz: 0;
+@content-wrap-inner-padding-horz-xs: @content-wrap-inner-padding-vert-xs - ( @grid-gutter-width / 2 );
+@content-wrap-inner-padding-horz-sm: @content-wrap-inner-padding-vert-sm - ( @grid-gutter-width / 2 );
+@content-wrap-inner-padding-horz-md: @content-wrap-inner-padding-vert-md - ( @grid-gutter-width / 2 );
+
+@content-inner-bg: #ffffff;
+
+
+// General Content
+
+@item-detail-spacing: 15px;
+@item-detail-color: @text-muted;
+@item-detail-label-color: @headings-color;
+
+
+// Grid List variables
+
+@gridlist-filter-font-size: 13px;
+@gridlist-filter-spacing: 4px;
+
+@gridlist-gutter-width: 20px;
+@gridlist-gutter-width-md: 30px;
+
+@gridlist-title-font-size: 16px;
+@gridlist-subtitle-font-size: 13px;
+
+
+// Blog variables
+
+@post-date-font-size: 13px;
+@post-date-color: @text-muted;
+
+@post-meta-font-size: 13px;
+@post-meta-color: @text-muted;
+
+@post-meta-list-horizontal-margin: 1.5em;
+@post-meta-list-icon-margin: 0.3em;
+
+@post-date-color: @text-muted;
+@post-date-font-size: 13px;
+@post-date-day-color: @headings-color;
+@post-date-day-font-size: @font-size-h2;
+
+@post-date-width-sm: 120px;
+
+@entry-author-avatar-width: 80px;
+@entry-author-avatar-width-lg: 100px;
+@entry-author-avatar-margin: 20px;
+@entry-author-avatar-margin-lg: 30px;
+
+@entry-comment-spacing: 35px;
+
+@entry-comment-avatar-width: 60px;
+@entry-comment-avatar-margin: 20px;
+
+@entry-comment-links-font-size: 13px;
+
+@entry-comment-time-font-size: 13px;
+@entry-comment-time-font-style: normal;
+@entry-comment-time-color: @text-muted;
+
+@entry-comment-body-padding-top: 10px;
+@entry-comment-body-padding-top-lg: 15px;
+
+@entry-comment-form-notes-font-size: 13px;
+
+
+// Social Media Colors
+
+@color-twitter: #00aced;
+@color-facebook: #3b5998;
+@color-google: #dd4b39;
+@color-pinterest: #cb2027;
+@color-linkedin: #007bb6;
+@color-youtube: #bb0000;
+@color-vimeo: #aad450;
+@color-tumblr: #32506d;
+@color-instagram: #517fa4;
+@color-flickr: #ff0084;
+@color-dribbble: #ea4c89;
+@color-foursquare: #0072b1;
+@color-forrst: #5b9a68;
+@color-vkontakte: #45668e;
+@color-wordpress: #21759b;
+@color-stumbleupon: #eb4823;
+@color-yahoo: #7b0099;
+@color-blogger: #fb8f3d;
+@color-soundcloud: #ff3a00;
+
+
+// Transition Easings
+
+@ease-in-quad: cubic-bezier(0.550, 0.085, 0.680, 0.530);
+@ease-in-cubic: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+@ease-in-quart: cubic-bezier(0.895, 0.030, 0.685, 0.220);
+@ease-in-quint: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+@ease-in-sine: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+@ease-in-expo: cubic-bezier(0.950, 0.050, 0.795, 0.035);
+@ease-in-circ: cubic-bezier(0.600, 0.040, 0.980, 0.335);
+@ease-in-back: cubic-bezier(0.600, -0.280, 0.735, 0.045);
+
+@ease-out-quad: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+@ease-out-cubic: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+@ease-out-quart: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+@ease-out-quint: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+@ease-out-sine: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+@ease-out-expo: cubic-bezier(0.190, 1.000, 0.220, 1.000);
+@ease-out-circ: cubic-bezier(0.075, 0.820, 0.165, 1.000);
+@ease-out-back: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+
+@ease-in-out-quad: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+@ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+@ease-in-out-quart: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+@ease-in-out-quint: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+@ease-in-out-sine: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+@ease-in-out-expo: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+@ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+@ease-in-out-back: cubic-bezier(0.680, -0.550, 0.265, 1.550);

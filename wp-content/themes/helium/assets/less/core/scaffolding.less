@@ -1,0 +1,369 @@
+
+/* ==========================================================================
+	1.1 Typography
+============================================================================= */
+
+body {
+	font-weight: 300;
+}
+
+a {
+	outline: none !important;
+	&, &:hover, &:focus {
+		text-decoration: none;
+	}
+}
+
+b, strong {
+	font-weight: 700;
+}
+
+p {
+	margin-bottom: 0.89285714em;
+}
+
+small {
+	font-size: @font-size-base - 1;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.lead {
+	line-height: 1.5;
+	margin-bottom: .8em;
+	b, strong {
+		font-weight: 500;
+	}
+}
+
+blockquote {
+	margin: 0;
+	padding: 20px 0 20px 40px;
+	border: none;
+	line-height: 1.5;
+	position: relative;
+	p, small, footer {
+		position: relative;
+		z-index: 1;
+	}
+	p {
+		font-family: @quote-blockquote-font-family;
+		font-style: @quote-blockquote-font-style;
+		font-size: @quote-blockquote-font-size;
+	}
+	small, footer {
+		margin-top: 1em;
+		font-size: @font-size-base;
+	}
+	&:before {
+		font-size: 12em;
+		color: #f2f2f2;
+		line-height: 0.78;
+		position: absolute;
+		font-style: normal;
+		font-family: @quote-blockquote-font-family;
+		content: '\201C';
+		left: 0;
+		top: 0;
+	}
+}
+
+/* ==========================================================================
+	1.2 Heading Styles
+============================================================================= */
+
+h1, h2, .h1, .h2 {
+	margin-top: 1em;
+	margin-bottom: 0.625em;
+}
+
+h3, h4, h5, h6, 
+.h3, .h4, .h5, .h6 {
+	margin-top: 1.625em;
+	margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, 
+.h1, .h2, .h3, .h4 {
+	font-weight: 700;
+}
+
+h5, h6, .h5, .h6 {
+	font-weight: 500;
+}
+
+h1, h2, h3, 
+h4, h5, h6, 
+.h1, .h2, .h3, 
+.h4, .h5, .h6 {
+	&.bordered, 
+	&.striped {
+		padding: 0 0 0.625em;
+		margin-bottom: 1.25em;
+	}
+
+	&.bordered {
+		border-bottom: 1px solid @base-border-color;
+	}
+
+	&.striped {
+		position: relative;
+		&:after {
+			content: '';
+			position: absolute;
+			width: 40px;
+			height: 1px;
+			bottom: 0;
+			left: 0;
+			background-color: @dotted-border-color;
+		}
+
+		&.text-center:after {
+			left: 50%;
+			margin-left: -20px;
+		}
+		&.text-right:after {
+			left: auto;
+			right: 0;
+		}
+	}
+
+	&.no-margin-top {
+		margin-top: 0;
+	}
+
+	&.no-margin-bottom {
+		margin-bottom: 0;
+	}
+}
+
+/* ==========================================================================
+	1.3 Code Styles
+============================================================================= */
+
+pre {
+	border: none;
+	background-color: @body-bg;
+	padding: @grid-gutter-width / 2;
+}
+
+/* ==========================================================================
+	1.4 Responsive Image
+============================================================================= */
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+#map_canvas img,
+.google-maps img {
+	max-width: none;
+}
+
+/* ==========================================================================
+	1.5 Loader Styles
+============================================================================= */
+
+.helium-loader {
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	position: relative;
+	#gradient > .horizontal( #d0d0d0, rgba( red( #d0d0d0 ), green( #d0d0d0 ), blue( #d0d0d0 ), 0 ), 10%, 42% );
+	.animation(he-loading 1.4s infinite linear);
+
+	&:before {
+		width: 50%;
+		height: 50%;
+		background: #d0d0d0;
+		border-radius: 100% 0 0 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: '';
+	}
+
+	&:after {
+		background: @body-bg;
+		width: 75%;
+		height: 75%;
+		border-radius: 50%;
+		content: '';
+		margin: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+}
+
+@-webkit-keyframes he-loading {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes he-loading {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+/* ==========================================================================
+	1.6 List Styles
+============================================================================= */
+
+ul.plain-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.inline-list {
+	&:extend(ul.plain-list);
+	li {
+		display: inline-block;
+	}
+}
+
+ul.arrow-list, 
+ul.check-list {
+	&, ul {
+		&:extend(ul.plain-list);
+	}
+	li {
+		padding-left: @line-height-computed;
+		&:before {
+			display: inline-block;
+			line-height: inherit;
+			font-family: 'FontAwesome';
+			margin-left: -@line-height-computed;
+			width: @line-height-computed;
+			line-height: @line-height-computed;
+		}
+	}
+}
+
+ul.arrow-list {
+	li:before {
+		content: '\F105';
+	}
+}
+
+ul.check-list {
+	li:before {
+		content: '\F00C';
+	}
+}
+
+/* ==========================================================================
+	1.7 Form Styles
+============================================================================= */
+
+.form-control {
+	box-shadow: none !important;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.form-group {
+	[class*="col-sm-"], 
+	[class*="col-md-"], 
+	[class*="col-lg-"] {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.search-form input {
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjE2cHgiPjxwYXRoIGZpbGw9IiNjY2NjY2MiIGQ9Ik0xNC45MDUsMTMuMDkxbC0zLjc1Mi0zLjc1M2MwLjYxLTAuOTQ2LDAuOTcxLTIuMDY5LDAuOTcxLTMuMjc3QzEyLjEyNCwyLjcxOCw5LjQwMywwLDYuMDYyLDAgQzIuNzE4LDAsMCwyLjcxOCwwLDYuMDYxYzAsMy4zNDMsMi43MTgsNi4wNjIsNi4wNjIsNi4wNjJjMS4yMDcsMCwyLjMzLTAuMzU4LDMuMjc3LTAuOTY5bDMuNzUxLDMuNzUyIGMwLjEyNiwwLjEyNiwwLjMzMiwwLjEyNiwwLjQ1NSwwbDEuMzYxLTEuMzYxQzE1LjAzMSwxMy40MiwxNS4wMzEsMTMuMjE2LDE0LjkwNSwxMy4wOTF6IE0xLjkyNCw2LjA2MSBjMC0yLjI3OSwxLjg1Ni00LjEzNiw0LjEzNy00LjEzNmMyLjI4MiwwLDQuMTM3LDEuODU2LDQuMTM3LDQuMTM2YzAsMi4yODItMS44NTUsNC4xMzctNC4xMzcsNC4xMzcgQzMuNzgsMTAuMTk4LDEuOTI0LDguMzQyLDEuOTI0LDYuMDYxeiIvPjwvc3ZnPg==');
+}
+
+/* ==========================================================================
+	1.8 Spacers
+============================================================================= */
+
+.spacer( @size; @increments: 10; @max: 40; ) when( @size <= @max ) {
+	.spacer-@{size} {
+		margin: unit(round(@size / 2), px)  0;
+	}
+	.spacer( @size + @increments; @increments; @max );
+}
+
+[class*="spacer-"] {
+	.clearfix();
+}
+
+.spacer( 10, 10, 140 );
+
+/* ==========================================================================
+	1.9 Contact Form 7
+============================================================================= */
+
+div {
+	&.wpcf7-response-output {
+		padding: @alert-padding;
+		margin: 0;
+		margin-bottom: @line-height-computed;
+		border: 1px solid transparent;
+		border-radius: @alert-border-radius;
+	}
+
+	&.wpcf7-mail-sent-ok {
+		background-color: @alert-success-bg;
+		border-color: @alert-success-border;
+		color: @alert-success-text;
+	}
+
+	&.wpcf7-mail-sent-ng {
+		background-color: @alert-danger-bg;
+		border-color: @alert-danger-border;
+		color: @alert-danger-text;
+	}
+
+	&.wpcf7-spam-blocked {
+		background-color: @alert-warning-bg;
+		border-color: @alert-warning-border;
+		color: @alert-warning-text;
+	}
+
+	&.wpcf7-validation-errors {
+		background-color: @alert-danger-bg;
+		border-color: @alert-danger-border;
+		color: @alert-danger-text;
+	}
+}
+
+/* ==========================================================================
+	1.10 Miscs.
+============================================================================= */
+
+#_atssh {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}

@@ -1,0 +1,753 @@
+
+/* ==========================================================================
+	5.1 Site Wrap
+============================================================================= */
+
+.site-wrap {
+	min-height: 100vh;
+	.transition-transform(.6s @ease-out-expo);
+	.header-open & {
+		.translate(@header-content-width, 0);
+	}
+}
+
+.site-outer-wrap {
+	overflow: hidden;
+}
+
+/* ==========================================================================
+	5.2 Search
+============================================================================= */
+
+.search-wrap {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 402;
+	background-color: rgba(255, 255, 255, 0.95);
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	.transition(opacity .6s @ease-out-expo, visibility 0s .6s;);
+	pointer-events: none;
+	overflow-y: auto;
+
+	&:before, .container {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	&:before {
+		content: '';
+		height: 100%;
+	}
+
+	.search-inner-wrap {
+		text-align: left;
+	}
+
+	.search-form .form-control {
+		border: none;
+		background-color: transparent;
+		font-size: 2em;
+		height: auto;
+		padding: 0 1.5em 0 0;
+		background-size: 1em;
+	}
+}
+
+.search-open .search-wrap {
+	visibility: visible;
+	opacity: 1;
+	pointer-events: auto;
+	.transition-delay(0s);
+}
+
+.search-entry {
+	padding: 30px 0;
+
+	+ .search-entry {
+		border-top: 1px solid @base-border-color;
+	}
+	
+	.search-entry-thumbnail {
+		float: left;
+		width: 150px;
+		margin-right: @grid-gutter-width;
+	}
+	.search-entry-content {
+		overflow: hidden;
+	}
+	.search-entry-post-type {
+		a {
+			color: @label-color;
+		}
+	}
+	.search-entry-title {
+		margin-top: 5px;
+		a {
+			color: @headings-color;
+			&:hover {
+				color: @brand-primary;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+	5.3 Header
+============================================================================= */
+
+.header {
+	background-color: @header-bg;
+	border: solid @base-border-color;
+	border-width: 0 0 1px 0;
+	font-size: @header-font-size-base;
+}
+
+.header-content-top {
+	height: @header-content-top-height;
+	padding: @header-content-top-padding;
+	position: relative;
+}
+
+.header-links {
+	position: absolute;
+	line-height: 20px;
+	top: 50%;
+	font-size: 16px;
+	right: 0;
+	width: @header-content-top-height;
+	margin-top: -10px;
+	text-align: center;
+	ul {
+		li {
+			margin-right: .6em;
+			a {
+				display: block;
+				width: 20px;
+				text-align: center;
+				color: @text-muted;
+				position: relative;
+			}
+		}
+	}
+
+	.header-links-tooltip {
+		position: absolute;
+		bottom: 75%;
+		left: 75%;
+		background-color: @brand-primary;
+		border-radius: 50%;
+		display: block;
+		padding: .25em .5em;
+		line-height: 1;
+		color: #fff;
+		font-size: 10px;
+	}
+}
+
+.header-content-bottom {
+	padding: @header-content-bottom-padding;
+	background-color: @header-bg;
+	border-right: 1px solid @base-border-color;
+	position: absolute;
+	width: @header-content-width;
+	top: 0;
+	right: 100%;
+
+	.header-open & {
+		position: static;
+		float: left;
+		margin-top: -@header-content-top-height;
+		margin-left: -@header-content-width;
+	}
+
+	&:before {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: 0; bottom: 0;
+		left: -@header-content-width;
+		width: @header-content-width;
+		background-color: inherit;
+		border-right: inherit;
+	}
+}
+
+.header-copyright {
+	margin-top: 40px;
+	color: @text-muted;
+	line-height: 1.6;
+
+	.header-widgets + & {
+		padding-top: 20px;
+		border-top: 1px solid @base-border-color;
+	}
+}
+
+/* ==========================================================================
+	5.4 Header Toggle
+============================================================================= */
+
+.header-toggle {
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	display: block;
+	position: absolute;
+	left: ( @header-content-top-height - 44px ) / 2;
+	top: ( @header-content-top-height - 44px ) / 2;
+	z-index: 1;
+	padding: 0 12px;
+	.transition-transform(.6s @ease-out-expo);
+
+	.header-open & {
+		.translate(-@header-content-top-height, 0);
+	}
+
+	span {
+		display: block;
+		position: relative;
+		height: 4px;
+		.transition(.3s);
+	}
+
+	> span {
+		> span {
+			&, 
+			&:before, 
+			&:after {
+				background: #333;
+				border-radius: 3px;
+			}
+
+			&:before, 
+			&:after {
+				content: '';
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+			}
+
+			&:before {
+				.translate(0, -6px);
+			}
+
+			&:after {
+				.translate(0, 6px);
+			}
+		}
+	}
+
+	.header-open & {
+		> span {
+			.scale(0.8);
+			> span {
+				background: transparent;
+				&:before {
+					.rotate(45deg);
+				}
+				&:after {
+					.rotate(-45deg);
+				}
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+	5.5 Brand
+============================================================================= */
+
+.brand {
+
+	&, 
+	.site-logo, 
+	.site-logo:before {
+		height: 100%;
+	}
+
+	.site-logo {
+		text-align: center;
+
+		&:before {
+			content: '';
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		img {
+			max-height: 100%;
+		}
+	}
+
+	.tagline {
+		display: none;
+	}
+}
+
+/* ==========================================================================
+	5.6 Navigation
+============================================================================= */
+
+.main-nav {
+	border: solid @base-border-color;
+	border-width: 1px 0;
+	margin: 0 -35px;
+	ul {
+		&:extend(ul.plain-list);
+		li {
+			position: relative;
+			line-height: 1;
+
+			+ li {
+				border-top: 1px solid @base-border-color;
+			}
+
+			a {
+				display: block;
+				font-size: @main-nav-link-font-size;
+				font-family: @main-nav-link-font-family;
+				font-weight: @main-nav-link-font-weight;
+				color: @main-nav-link-color;
+				text-transform: uppercase;
+				padding: 12px 35px;
+			}
+
+			&.current-menu-item > a, 
+			> a:hover{
+				color: @brand-primary;
+			}
+
+			.subnav-close {
+				position: absolute;
+				top: 0; left: 0;
+				text-align: center;
+				width: 35px;
+				height: 37px;
+				line-height: inherit;
+				padding: 12px 0;
+				cursor: pointer;
+				display: none;
+
+				&:after, &:before {
+					content: '';
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					background-color: #aaa;
+					.transition-transform(.1s);
+				}
+				&:after {
+					height: 7px;
+					width: 1px;
+					margin-top: -4px;
+				}
+				&:before {
+					width: 7px;
+					height: 1px;
+					margin-left: -3px;
+					margin-top: -1px;
+				}
+			}
+		}
+
+		ul {
+			padding-left: 15px;
+			li:first-child {
+				border-top: 1px solid @base-border-color;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+	5.7 Content Area
+============================================================================= */
+
+.content-area-wrap {
+	.content-area {
+		overflow: hidden;
+		&.fullwidth {
+			&, .content-header-affix {
+				max-width: none;
+			}
+		}
+		&.fullscreen {
+			max-width: none;
+			.content-header {
+				visibility: hidden;
+				position: absolute;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+	5.8 Content Header
+============================================================================= */
+
+.content-header {
+	min-height: @content-header-height + 1;
+	background-color: @content-header-bg;
+}
+
+.content-header-affix {
+	text-align: center;
+	background-color: @content-header-bg;
+	border-bottom: 1px solid @base-border-color;
+}
+
+/* ==========================================================================
+	5.9 Content Title
+============================================================================= */
+
+.content-title {
+	width: 100%;
+	margin: 0;
+	padding: ( @content-header-height - round( @content-title-font-size * @content-title-line-height ) ) / 2 @content-spacing;
+	color: @headings-color;
+	font-size: @content-title-font-size;
+	line-height: @content-title-line-height;
+}
+
+/* ==========================================================================
+	5.10 Content Area AJAX Animation
+============================================================================= */
+
+.content-area {
+	.content-wrap, 
+	.content-header-affix > * {
+		.transition(opacity .35s @ease-out-quad);
+	}
+
+	&.beforeload {
+		.content-wrap, 
+		.content-header-affix > * {
+			opacity: 0;
+		}
+	}
+}
+
+/* ==========================================================================
+	5.11 Content Box
+============================================================================= */
+
+.content-box {
+	position: relative;
+	z-index: 1;
+	background-color: @content-inner-bg;
+	border-bottom: 1px solid @base-border-color;
+
+	&.no-margin {
+		margin: 0;
+	}
+
+	.content-wrap-fullwidth {
+		overflow: hidden;
+
+		.container {
+			padding-left: 0;
+			padding-right: 0;
+			width: auto;
+		}
+
+		.row {
+			margin: 0;
+		}
+
+		.col-xs-1, 
+		.col-sm-1, 
+		.col-md-1, 
+		.col-lg-1, 
+		.col-xs-2, 
+		.col-sm-2, 
+		.col-md-2, 
+		.col-lg-2, 
+		.col-xs-3, 
+		.col-sm-3, 
+		.col-md-3, 
+		.col-lg-3, 
+		.col-xs-4, 
+		.col-sm-4, 
+		.col-md-4, 
+		.col-lg-4, 
+		.col-xs-5, 
+		.col-sm-5, 
+		.col-md-5, 
+		.col-lg-5, 
+		.col-xs-6, 
+		.col-sm-6, 
+		.col-md-6, 
+		.col-lg-6, 
+		.col-xs-7, 
+		.col-sm-7, 
+		.col-md-7, 
+		.col-lg-7, 
+		.col-xs-8, 
+		.col-sm-8, 
+		.col-md-8, 
+		.col-lg-8, 
+		.col-xs-9, 
+		.col-sm-9, 
+		.col-md-9, 
+		.col-lg-9, 
+		.col-xs-10, 
+		.col-sm-10, 
+		.col-md-10, 
+		.col-lg-10, 
+		.col-xs-11, 
+		.col-sm-11, 
+		.col-md-11, 
+		.col-lg-11, 
+		.col-xs-12, 
+		.col-sm-12, 
+		.col-md-12, 
+		.col-lg-12 {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	.content-wrap-inner {
+		padding: @content-wrap-inner-padding-vert @content-wrap-inner-padding-horz;
+
+		.container {
+			margin-left: 0;
+			margin-right: 0;
+			width: auto;
+		}
+
+		.row.fullwidth {
+			margin: 0;
+		}
+
+		&.no-padding {
+			padding: 0;
+		}
+
+		&.no-vertical-padding {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+		&.half-vertical-padding {
+			padding-top: @content-wrap-inner-padding-vert / 2;
+			padding-bottom: @content-wrap-inner-padding-vert / 2;
+		}
+
+		&.three-quarters-vertical-padding {
+			padding-top: @content-wrap-inner-padding-vert * 0.75;
+			padding-bottom: @content-wrap-inner-padding-vert * 0.75;
+		}
+
+		&.half-bottom-padding {
+			padding-bottom: @content-wrap-inner-padding-vert / 2;
+		}
+
+		&.half-top-padding {
+			padding-top: @content-wrap-inner-padding-vert / 2;
+		}
+	}
+}
+
+/* ==========================================================================
+	5.12 Content Navigation
+============================================================================= */
+
+.content-nav {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: @content-nav-height;
+	line-height: 1;
+	font-size: @content-nav-font-size;
+	font-weight: @content-nav-font-weight;
+	font-family: @content-nav-font-family;
+	color: @content-nav-color;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: table-row;
+		&, li {
+			height: 100%;
+		}
+	}
+
+	.content-header & {
+		border-top: 1px solid @base-border-color;
+	}
+}
+
+.content-nav-link {
+	position: relative;
+	display: table-cell;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	min-width: @content-nav-height;
+
+	+ .content-nav-link {
+		border-left: 1px solid @base-border-color;	
+	}
+
+	> a, > span {
+		height: 100%;
+		display: block;
+		color: @content-nav-color;
+		text-transform: uppercase;
+
+		&:after {
+			content: '';
+			height: 100%;
+		}
+
+		&:before {
+			content: '';
+			position: absolute;
+			z-index: -1;
+			left: -1px; top: 0;
+			right: -1px; height: 0;
+			background-color: @brand-primary;
+			.transition(height .6s @ease-out-expo);
+			border: solid rgba(0, 0, 0, 0.05);
+			border-width: 0 1px;
+		}
+
+		&:after, .content-nav-link-wrap {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.content-nav-link-wrap {
+			.content-nav-link-label {
+				margin-right: 6px;
+				display: none;
+			}
+
+			.fa + .content-nav-link-label {
+				margin-left: 6px;
+				margin-right: 0;
+			}
+		}
+		
+		&.gridlist-infinite-link {
+			pointer-events: none;
+		}
+	}
+
+	&.disabled {
+		> a, 
+		> span {
+			color: #d5d5d5;
+			pointer-events: none;
+		}
+	}
+
+	&.active, &:not(.disabled):hover {
+		> a, > span {
+			&:not(.dots) {
+				color: #fff;
+				&:before {
+					height: 100%;
+				}
+			}
+		}
+	}
+
+	> a, > span {
+		&.current {
+			color: #fff;
+			&:before {
+				height: 100%;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+	5.13 Post Page Navigation
+============================================================================= */
+
+.pages-nav {
+	font-size: @font-size-base;
+	
+	ul li {
+		a {
+			display: block;
+			.pages-nav-item {
+				background-color: #f8f8f8;
+				color: @text-muted;
+			}
+			&:hover .pages-nav-item {
+				color: #fff;
+				background-color: @brand-primary;
+			}
+		}
+		+ li {
+			margin-left: 4px;
+		}
+	}
+
+	.pages-nav-item {
+		display: inline-block;
+		padding: 9px 12px;
+		line-height: 1;
+		color: #fff;
+		background-color: @brand-primary;
+		border-radius: 3px;
+	}
+}
+
+/* ==========================================================================
+	5.14 Back to Top
+============================================================================= */
+
+.back-to-top {
+	position: fixed;
+	z-index: 410;
+	right: 0;
+	bottom: 0;
+	.btn {
+		font-size: @font-size-large;
+		background-color: #fff;
+		.size(@content-nav-height, @content-nav-height);
+		line-height: @content-nav-height;
+		text-align: center;
+		color: @headings-color;
+		.box-shadow(0 0 16px rgba(0, 0, 0, 0.15));
+		&:hover {
+			color: @headings-color;
+		}
+	}
+
+	.page-template-portfolio-slider & {
+		display: none;
+	}
+}
+
+/* ==========================================================================
+	5.15 Footer
+============================================================================= */
+
+.site-footer {
+	display: none;
+}
+
+/* ==========================================================================
+	5.16 Featured Content
+============================================================================= */
+
+.featured-content {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFAQMAAAC3obSmAAAABlBMVEUAAAAAAAClZ7nPAAAAAnRSTlMAFGxJGUUAAAASSURBVAjXY2hg4GAQYFBgcAAABbIA+Zl88MsAAAAASUVORK5CYII=);
+	img {
+		width: 100%;
+	}
+}
