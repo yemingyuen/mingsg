@@ -1,0 +1,311 @@
+/* -------------------------------------------------- 
+  :: TinyMCE SwitchEditors
+  ---------------------------------------------------*/
+.ypbl-active .switch-youxi-builder {
+  color: #555;
+  border-bottom-color: #f5f5f5;
+}
+.ypbl-active .switch-youxi-builder,
+.ypbl-active .switch-youxi-builder:hover {
+  background: #f5f5f5;
+}
+.ypbl-active .switch-youxi-builder:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.ypbl-active .quicktags-toolbar {
+  display: none;
+}
+.ypbl-active #content-resize-handle,
+.ypbl-active + #post-status-info {
+  display: none;
+}
+/* -------------------------------------------------- 
+  :: Builder Wrapper
+  ---------------------------------------------------*/
+.youxi-builder-wrapper {
+  position: relative;
+}
+.youxi-builder-wrapper.fixed-header .youxi-builder-header {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+}
+/* -------------------------------------------------- 
+  :: Builder Menu
+  ---------------------------------------------------*/
+.youxi-builder-menu {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+/* -------------------------------------------------- 
+  :: Builder Menu Tabs
+  ---------------------------------------------------*/
+.youxi-builder-menu-tabs {
+  border-bottom: 1px solid #dedede;
+  background: #f5f5f5;
+  margin: 0;
+}
+.youxi-builder-menu-tabs .youxi-builder-menu-tab {
+  display: inline-block;
+  margin: 0;
+  border-right: 1px solid #dedede;
+}
+.youxi-builder-menu-tabs .youxi-builder-menu-tab.active {
+  background: #f5f5f5;
+  padding-bottom: 1px;
+  margin-bottom: -1px;
+}
+.youxi-builder-menu-tabs li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: #333;
+  outline: none;
+  box-shadow: none;
+}
+/* -------------------------------------------------- 
+  :: Builder Menu Items
+  ---------------------------------------------------*/
+.youxi-builder-menu-items {
+  padding: 20px;
+  border-bottom: 1px solid #dedede;
+}
+.youxi-builder-component-list {
+  margin: 0;
+  padding: 0;
+}
+.youxi-builder-component-list .youxi-builder-component {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 12px;
+  margin: 0 5px 10px;
+  position: relative;
+  border-radius: 3px;
+  background-color: #fff;
+  vertical-align: middle;
+  border: 1px solid #dedede;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.youxi-builder-component-list .youxi-builder-component .youxi-builder-component-icon {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  height: 20px;
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+.youxi-builder-content {
+  position: relative;
+  z-index: 98;
+}
+.youxi-builder-content .ui-sortable.ui-state-hover {
+  background: #fffdeb;
+  border: none;
+  color: inherit;
+  font-weight: inherit;
+}
+/* -------------------------------------------------- 
+  :: Builder Cursors
+  ---------------------------------------------------*/
+.youxi-builder-component-list .youxi-builder-component {
+  cursor: pointer;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+.youxi-builder-component-list .youxi-builder-component.ui-draggable-dragging {
+  cursor: move;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+.youxi-builder-panel .youxi-builder-panel-header {
+  cursor: pointer;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+.youxi-builder-panel.ui-sortable-helper .youxi-builder-panel-header {
+  cursor: move;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+/* -------------------------------------------------- 
+  :: Builder Controls
+  ---------------------------------------------------*/
+.youxi-builder-controls {
+  float: right;
+}
+.youxi-builder-controls ul {
+  white-space: nowrap;
+}
+.youxi-builder-controls ul,
+.youxi-builder-controls ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.youxi-builder-controls ul li {
+  display: inline-block;
+}
+.youxi-builder-controls ul li + li {
+  margin-left: 5px;
+}
+.youxi-builder-controls .button {
+  padding: 0 3px 1px;
+  height: 28px;
+  margin-bottom: 0;
+}
+.youxi-builder-controls .dashicons {
+  line-height: 26px;
+}
+/* -------------------------------------------------- 
+  :: Builder Content
+  ---------------------------------------------------*/
+.youxi-builder-content-drop-notice {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 235px;
+}
+.youxi-builder-content-drop-notice .drop-icon {
+  font-size: 28px;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  border-radius: 10px;
+  border: 3px dashed #ababab;
+  color: #ababab;
+  display: block;
+  margin: 60px auto 0 auto;
+}
+.youxi-builder-content-drop-notice p {
+  font-size: 18px;
+  color: #ababab;
+  margin: 10px 0 0;
+}
+/* -------------------------------------------------- 
+  :: Builder Panel
+  ---------------------------------------------------*/
+.youxi-builder-panel {
+  visibility: visible !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.youxi-builder-panel + .youxi-builder-panel {
+  margin-top: 16px;
+}
+.youxi-builder-panel.ui-sortable-helper:first-child + .youxi-builder-panel {
+  margin-top: 0;
+}
+.youxi-builder-panel .youxi-builder-panel-inner {
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  height: 100%;
+}
+.youxi-builder-panel.ui-sortable-placeholder .youxi-builder-panel-inner {
+  border-color: #bbb;
+  border-style: dashed;
+}
+/* -------------------------------------------------- 
+  :: Builder Panel Headers
+  ---------------------------------------------------*/
+.youxi-builder-panel-header {
+  border-bottom: 1px solid #dedede;
+  background: #f9f9f9;
+  position: relative;
+  padding: 12px 12px;
+}
+.youxi-builder-panel-header:after,
+.youxi-builder-panel-header:before {
+  content: '';
+  line-height: 0;
+  display: table;
+}
+.youxi-builder-panel-header:after {
+  clear: both;
+}
+.youxi-builder-panel-header .youxi-builder-panel-title + .youxi-builder-panel-title,
+.youxi-builder-panel-header .youxi-builder-controls + .youxi-builder-panel-title,
+.youxi-builder-panel-header .youxi-builder-panel-title + .youxi-builder-controls,
+.youxi-builder-panel-header .youxi-builder-controls + .youxi-builder-controls {
+  margin-left: 8px;
+}
+.youxi-builder-panel-header .youxi-builder-panel-title {
+  font-weight: 600;
+  color: #222;
+  font-size: 13px;
+  line-height: 28px;
+  float: left;
+}
+/* -------------------------------------------------- 
+  :: Builder Panel Contents
+  ---------------------------------------------------*/
+.youxi-builder-panel-contents {
+  position: relative;
+  background-color: #fff;
+}
+.youxi-builder-panel-contents .youxi-builder-panel-cw {
+  position: relative;
+  min-height: 54px;
+  padding: 16px 16px;
+}
+.youxi-builder-panel-contents .youxi-builder-panel-cw:after,
+.youxi-builder-panel-contents .youxi-builder-panel-cw:before {
+  content: '';
+  line-height: 0;
+  display: table;
+}
+.youxi-builder-panel-contents .youxi-builder-panel-cw:after {
+  clear: both;
+}
+/* -------------------------------------------------- 
+  :: Builder Root
+  ---------------------------------------------------*/
+.youxi-builder-root {
+  padding: 16px 16px 235px;
+}
+/* -------------------------------------------------- 
+  :: Builder Row
+  ---------------------------------------------------*/
+.youxi-builder-row-contents {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.youxi-builder-row-contents .youxi-builder-row-cw {
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* -------------------------------------------------- 
+  :: Builder Columns
+  ---------------------------------------------------*/
+.youxi-builder-column {
+  float: left;
+  padding-right: 16px;
+}
+.youxi-builder-column + .youxi-builder-column {
+  margin-top: 0;
+}
+.youxi-builder-column:first-child,
+.youxi-builder-column.ui-sortable-helper:first-child + .youxi-builder-column,
+.youxi-builder-column.ui-sortable-helper:first-child + .ui-sortable-placeholder {
+  padding-left: 16px;
+}
+.youxi-builder-column .youxi-builder-column-header .youxi-builder-controls {
+  float: left;
+}
+/* -------------------------------------------------- 
+  :: Builder Widget
+  ---------------------------------------------------*/
+.youxi-builder-widget-header {
+  border-bottom: 0;
+}
+.youxi-builder-widget-contents {
+  display: none;
+}

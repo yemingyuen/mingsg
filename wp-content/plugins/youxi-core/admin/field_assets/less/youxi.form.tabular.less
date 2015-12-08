@@ -1,0 +1,72 @@
+
+.youxi-tabular-cell {
+	min-width: 50px;
+}
+
+.youxi-tabular-input {
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	th, 
+	td {
+		padding: 6px;
+		vertical-align: middle;
+		border: 1px solid #e0e0e0;
+	}
+
+	th {
+		background-color: #fafafa;
+		font-weight: normal;
+	}
+
+	.youxi-tabular-row-controls {
+		width: 22px;
+		text-align: center;
+	}
+
+	th input[type="text"], 
+	td input[type="text"], 
+	td textarea {
+		width: 100%;
+		margin: 0;
+		vertical-align: middle;
+	}
+
+	td textarea {
+		resize: none;
+	}
+}
+
+.youxi-tabular-controls {
+	text-align: center;
+
+	button {
+		display: inline-block;
+		padding: 0;
+		margin: 0;
+		color: #666;
+		width: 24px;
+		height: 24px;
+		line-height: 24px;
+		text-decoration: none;
+		cursor: pointer;
+		border: none;
+		outline: none;
+		background: no-repeat;
+		-webkit-appearance: none;
+
+		&:disabled {
+			color: #ddd;
+		}
+
+		.dashicons {
+			vertical-align: top;
+			width: 24px;
+			height: 24px;
+			line-height: 24px;
+		}
+	}
+}

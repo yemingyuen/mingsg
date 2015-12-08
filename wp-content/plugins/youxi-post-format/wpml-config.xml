@@ -1,0 +1,11 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">youxi_post_format_meta_image</custom-field>
+        <custom-field action="copy">youxi_post_format_meta_video</custom-field>
+        <custom-field action="copy">youxi_post_format_meta_audio</custom-field>
+        <custom-field action="copy">youxi_post_format_meta_gallery</custom-field>
+        <custom-field action="translate">youxi_post_format_meta_quote</custom-field>
+        <custom-field action="translate">youxi_post_format_meta_aside</custom-field>
+        <custom-field action="translate">youxi_post_format_meta_link</custom-field>
+    </custom-fields>  
+</wpml-config>

@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Youxi Builder\n"
+"POT-Creation-Date: 2015-03-18 19:17+0700\n"
+"PO-Revision-Date: 2015-03-18 19:17+0700\n"
+"Last-Translator: \n"
+"Language-Team: YouxiThemes\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../class-admin-notice.php:84
+#, php-format
+msgid ""
+"Lost? Open a support thread at Youxi Themes <a href=\"%s\" target=\"_blank"
+"\">support forum</a>."
+msgstr ""
+
+#: ../classes/class-manager.php:83 ../classes/class-manager.php:85
+msgid "Page Builder"
+msgstr ""
+
+#: ../classes/class-manager.php:197
+msgid "Decrease Size"
+msgstr ""
+
+#: ../classes/class-manager.php:201
+msgid "Increase Size"
+msgstr ""
+
+#: ../classes/class-manager.php:205
+msgid "Remove"
+msgstr ""
+
+#: ../classes/class-manager.php:209
+msgid "Edit"
+msgstr ""
+
+#: ../classes/class-manager.php:213
+msgid "Copy"
+msgstr ""
+
+#: ../classes/class-manager.php:220
+msgid "The specified column size is invalid."
+msgstr ""
+
+#: ../classes/class-manager.php:221
+msgid "The specified row slots size is invalid."
+msgstr ""
+
+#: ../classes/class-manager.php:222
+msgid "The containing row does not have enough slots."
+msgstr ""
+
+#: ../classes/class-manager.php:223
+msgid "Are you sure you want to remove this container?"
+msgstr ""
+
+#: ../classes/class-manager.php:224
+msgid "Are you sure you want to remove this row?"
+msgstr ""
+
+#: ../classes/class-manager.php:225
+msgid "Are you sure you want to remove this column?"
+msgstr ""
+
+#: ../classes/class-manager.php:226
+msgid "Are you sure you want to remove this widget?"
+msgstr ""
+
+#: ../classes/class-manager.php:227
+msgid "Column "
+msgstr ""
+
+#: ../classes/class-manager.php:248
+msgid "Drop here a new component"
+msgstr ""
+
+#: ../youxi-builder.php:75
+msgid ""
+"This plugin requires you to install and activate the Youxi Shortcodes plugin."
+msgstr ""
+
+#: ../youxi-builder.php:84
+msgid ""
+"The current version of this plugin requires at least Youxi Shortcode 3.1 to "
+"work."
+msgstr ""

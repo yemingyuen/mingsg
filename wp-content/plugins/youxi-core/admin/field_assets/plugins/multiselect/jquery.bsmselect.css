@@ -1,0 +1,71 @@
+.bsmContainer {
+  /* container that surrounds entire bsmSelect widget */
+  display: block;
+}
+
+.bsmSelect {
+  margin-bottom: 10px;
+}
+
+.bsmOptionDisabled {
+  /* disabled options in new select */
+  color: #999;
+}
+
+.bsmHighlight {
+  /* the highlight span */
+  float: right;
+  padding: 0;
+  margin: 0 0 0 1em;
+}
+
+.bsmList {
+  position: relative;
+  display: block;
+  list-style: none;
+  margin: 0;
+}
+
+.bsmList .bsmListItem {
+  padding: 15px 20px;
+  margin: 0;
+  background-color: #fff;
+  position: relative;
+}
+
+.bsmList .bsmListItem + .bsmListItem {
+  margin-top: -1px;
+}
+
+.bsmList .bsmListItem, 
+.bsmList .bsmListItem:last-child {
+  border: 1px solid #dbdbdb;
+}
+
+.bsmListItem:hover {}
+
+.bsmListItemLabel {
+  display: block;
+}
+
+.bsmListSortable .bsmListItemLabel {
+  cursor: move;
+}
+
+.bsmListItemRemove {
+  /* the remove link in each list item */
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  margin-top: -14px !important;
+}
+
+.bsmListItemRemove .dashicons {
+  line-height: inherit;
+}
+
+.bsmScrollWorkaround {
+  /* Fix a bug when the 'html' element has an overflow set to either 'scroll' or 'auto' on FF. */
+   padding-bottom: 1px;
+   overflow: auto;
+}

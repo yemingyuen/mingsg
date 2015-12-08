@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Youxi Portfolio\n"
+"POT-Creation-Date: 2015-03-18 19:18+0700\n"
+"PO-Revision-Date: 2015-03-18 19:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: YouxiThemes\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../class-admin-notice.php:84
+#, php-format
+msgid ""
+"Lost? Open a support thread at Youxi Themes <a href=\"%s\" target=\"_blank"
+"\">support forum</a>."
+msgstr ""
+
+#: ../class-portfolio.php:51 ../class-portfolio.php:52
+msgid "Order Portfolio"
+msgstr ""
+
+#: ../class-portfolio.php:78
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../class-portfolio.php:79
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../class-portfolio.php:80
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: ../class-portfolio.php:81
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: ../class-portfolio.php:82
+msgid "View Portfolio Category"
+msgstr ""
+
+#: ../class-portfolio.php:83
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: ../class-portfolio.php:84
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: ../class-portfolio.php:85
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: ../class-portfolio.php:86
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: ../class-portfolio.php:87
+msgid "Parent Portfolio Category: "
+msgstr ""
+
+#: ../class-portfolio.php:88
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: ../class-portfolio.php:89
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+#: ../class-portfolio.php:90
+msgid "Separate portfolio categories with commas"
+msgstr ""
+
+#: ../class-portfolio.php:91
+msgid "Add or remove portfolio categories"
+msgstr ""
+
+#: ../class-portfolio.php:92
+msgid "Choose from most used portfolio categories"
+msgstr ""
+
+#: ../class-portfolio.php:93
+msgid "No portfolio categories found."
+msgstr ""
+
+#: ../class-portfolio.php:104
+msgid "This post type is used to save your portfolio."
+msgstr ""
+
+#: ../class-portfolio.php:114 ../class-portfolio.php:115
+msgid "Portfolio"
+msgstr ""
+
+#: ../class-portfolio.php:116
+msgid "All Portfolio"
+msgstr ""
+
+#: ../class-portfolio.php:117 ../class-portfolio.php:118
+msgid "Add New Portfolio"
+msgstr ""
+
+#: ../class-portfolio.php:119
+msgid "Edit Portfolio"
+msgstr ""
+
+#: ../class-portfolio.php:120
+msgid "View Portfolio"
+msgstr ""
+
+#: ../class-portfolio.php:121
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../class-portfolio.php:122
+msgid "Portfolio not found"
+msgstr ""
+
+#: ../class-portfolio.php:123
+msgid "Portfolio not found in trash"
+msgstr ""
+
+#: ../class-portfolio.php:124
+msgid "Portfolio: "
+msgstr ""
+
+#: ../portfolio-shortcode.php:40
+msgid "Portfolio Entries"
+msgstr ""
+
+#: ../youxi-portfolio.php:57
+msgid "This plugin requires you to install and activate the Youxi Core plugin."
+msgstr ""

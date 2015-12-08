@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Youxi Core\n"
+"POT-Creation-Date: 2015-03-18 19:17+0700\n"
+"PO-Revision-Date: 2015-03-18 19:17+0700\n"
+"Last-Translator: \n"
+"Language-Team: YouxiThemes\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../admin/class-form.php:595
+msgid "General"
+msgstr ""
+
+#: ../admin/fields/class-image.php:29
+msgid "Choose Image(s)"
+msgstr ""
+
+#: ../admin/fields/class-image.php:30
+msgid "Insert Image(s)"
+msgstr ""
+
+#: ../admin/fields/class-repeater.php:36
+msgid "Add"
+msgstr ""
+
+#: ../admin/fields/class-repeater.php:37
+msgid "Edit"
+msgstr ""
+
+#: ../admin/fields/class-repeater.php:38
+msgid "Delete"
+msgstr ""
+
+#: ../admin/fields/class-repeater.php:40
+msgid "Are you sure you want to remove this item?"
+msgstr ""
+
+#: ../admin/fields/class-tabular.php:191
+msgid "Are you sure you want to delete this row?"
+msgstr ""
+
+#: ../admin/fields/class-tabular.php:192
+msgid "Are you sure you want to delete this column?"
+msgstr ""
+
+#: ../admin/fields/class-upload.php:24
+msgid "Choose File"
+msgstr ""
+
+#: ../admin/fields/class-upload.php:25
+msgid "Insert File"
+msgstr ""
+
+#: ../admin/fields/class-upload.php:26
+msgid "Select File"
+msgstr ""
+
+#: ../admin/fields/class-upload.php:27
+msgid "Remove File"
+msgstr ""
+
+#: ../class-admin-notice.php:84
+#, php-format
+msgid ""
+"Lost? Open a support thread at Youxi Themes <a href=\"%s\" target=\"_blank"
+"\">support forum</a>."
+msgstr ""
+
+#: ../class-post-order-page.php:44
+#, php-format
+msgid ""
+"Manage your %s ordering by using the drag and drop user interface below. "
+"Changes will be saved automatically and the order can be retrieved by "
+"querying posts by <strong>menu_order</strong>."
+msgstr ""
+
+#: ../class-post-order-page.php:102
+msgid "You're not allowed to do this action."
+msgstr ""
+
+#: ../class-post-type.php:249
+msgid "Featured Image"
+msgstr ""

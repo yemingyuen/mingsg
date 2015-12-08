@@ -1,0 +1,59 @@
+.youxi-tabular-cell {
+  min-width: 50px;
+}
+.youxi-tabular-input table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.youxi-tabular-input th,
+.youxi-tabular-input td {
+  padding: 6px;
+  vertical-align: middle;
+  border: 1px solid #e0e0e0;
+}
+.youxi-tabular-input th {
+  background-color: #fafafa;
+  font-weight: normal;
+}
+.youxi-tabular-input .youxi-tabular-row-controls {
+  width: 22px;
+  text-align: center;
+}
+.youxi-tabular-input th input[type="text"],
+.youxi-tabular-input td input[type="text"],
+.youxi-tabular-input td textarea {
+  width: 100%;
+  margin: 0;
+  vertical-align: middle;
+}
+.youxi-tabular-input td textarea {
+  resize: none;
+}
+.youxi-tabular-controls {
+  text-align: center;
+}
+.youxi-tabular-controls button {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  color: #666;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: no-repeat;
+  -webkit-appearance: none;
+}
+.youxi-tabular-controls button:disabled {
+  color: #ddd;
+}
+.youxi-tabular-controls button .dashicons {
+  vertical-align: top;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+}

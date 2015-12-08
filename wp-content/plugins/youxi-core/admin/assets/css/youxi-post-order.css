@@ -1,0 +1,34 @@
+.youxi-post-order {
+  padding-top: 12px;
+}
+.youxi-post-order-item {
+  margin: 0 auto 10px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.youxi-post-order-item .youxi-post-order-item-header {
+  cursor: move;
+  background: #fafafa;
+  color: #222;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+.youxi-post-order-item .youxi-post-order-item-header .item-title h4 {
+  margin: 0;
+  padding: 15px;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.youxi-post-order-item:hover .youxi-post-order-item-header {
+  border-color: #999;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}

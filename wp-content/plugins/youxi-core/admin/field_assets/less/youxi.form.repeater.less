@@ -1,0 +1,79 @@
+
+.clearfix() {
+    &:after, 
+    &:before {
+        content: '';
+        line-height: 0;
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+.youxi-repeater-template {
+    display: none;
+}
+
+.youxi-repeater fieldset {
+    border: none;
+}
+
+.youxi-repeater .button [class*="icon-"] {
+    margin-right: 3px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.youxi-repeater-row {
+    margin-bottom: 10px;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    background-color: #fafafa;
+
+    &.editing {
+        > .youxi-repeater-row-header {
+            border-bottom: 1px solid #dadada;
+        }
+
+        > .youxi-repeater-row-content {
+            display: block;
+        }
+    }
+}
+
+.youxi-repeater-row-header {
+    .clearfix();
+    padding: 10px;
+
+    .youxi-repeater-row-title {
+        float: left;
+        margin-left: 10px;
+        line-height: 30px;
+    }
+
+    .youxi-repeater-row-controls {
+        float: right;
+
+        button {
+            margin-left: 5px;
+
+            .dashicons {
+                line-height: 28px;
+            }
+
+            .dashicons-trash:before {
+                content: '\f182';
+            }
+        }
+    }    
+}
+
+.youxi-repeater-row-content {
+    display: none;
+
+    .youxi-form-tabs .ui-tabs-nav .ui-tabs-active {
+        background-color: #fafafa;
+    }
+}

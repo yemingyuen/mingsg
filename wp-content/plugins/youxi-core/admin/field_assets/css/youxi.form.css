@@ -1,0 +1,227 @@
+/* Form Style
+================================================== */
+.youxi-metabox .inside {
+  margin: 0 !important;
+  padding: 0;
+}
+.youxi-form {
+  margin: 0;
+}
+/* Form Row
+================================================== */
+.youxi-form .youxi-form-row {
+  padding: 20px 25px;
+}
+.youxi-form .youxi-form-row + .youxi-form-row {
+  border-top: 1px solid #dfdfdf;
+}
+.youxi-form .youxi-form-row:after,
+.youxi-form .youxi-form-row:before {
+  content: '';
+  line-height: 0;
+  display: table;
+}
+.youxi-form .youxi-form-row:after {
+  clear: both;
+}
+/* Button Row
+================================================== */
+.youxi-button-row {
+  padding: 10px;
+}
+.youxi-button-row .button + .button {
+  margin-left: 5px;
+}
+.youxi-button-row.inline,
+.youxi-form-inline .youxi-button-row {
+  padding-left: 160px;
+}
+/* Fieldsets
+================================================== */
+.youxi-form fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* Form Tabs
+================================================== */
+.youxi-form-tabs .youxi-form-tabs-nav ul {
+  margin: 0;
+  border: 0;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+.youxi-form-tabs .youxi-form-tabs-nav ul:after,
+.youxi-form-tabs .youxi-form-tabs-nav ul:before {
+  content: '';
+  line-height: 0;
+  display: table;
+}
+.youxi-form-tabs .youxi-form-tabs-nav ul:after {
+  clear: both;
+}
+.youxi-form-tabs .youxi-form-tabs-nav ul li {
+  float: left;
+  margin: 0;
+  position: relative;
+  border: solid transparent;
+  border-width: 0 1px;
+}
+.youxi-form-tabs .youxi-form-tabs-nav ul li a {
+  display: block;
+  line-height: 20px;
+  padding: 10px 15px;
+  outline: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: #888;
+}
+.youxi-form-tabs .youxi-form-tabs-nav ul li:first-child {
+  border-left: 0;
+}
+.youxi-form-tabs .youxi-form-tabs-nav ul li.active {
+  padding-bottom: 1px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.youxi-form-tabs .youxi-form-tabs-nav ul li.active a {
+  color: #444;
+}
+/* Form Labels
+================================================== */
+.youxi-form .youxi-form-label {
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 30px;
+}
+.youxi-form .youxi-form-label .required {
+  color: #f00;
+}
+.youxi-form .youxi-form-label:empty {
+  display: none;
+}
+/* Form Inputs
+================================================== */
+.youxi-form .youxi-form-item {
+  position: relative;
+}
+.youxi-form .youxi-form-item:after,
+.youxi-form .youxi-form-item:before {
+  content: '';
+  line-height: 0;
+  display: table;
+}
+.youxi-form .youxi-form-item:after {
+  clear: both;
+}
+.youxi-form .youxi-form-item .description {
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  margin: 4px 0 0;
+}
+.youxi-form .youxi-form-medium {
+  width: 75%;
+}
+.youxi-form .youxi-form-large {
+  width: 100%;
+}
+.youxi-form .youxi-form-small {
+  width: 50%;
+}
+.youxi-form textarea {
+  resize: vertical;
+  height: auto;
+}
+/* Inline Form Layout
+================================================== */
+.youxi-form.youxi-form-inline .youxi-form-item,
+.youxi-form .youxi-form-inline .youxi-form-item {
+  margin-left: 185px;
+}
+.youxi-form.youxi-form-inline .youxi-form-label,
+.youxi-form .youxi-form-inline .youxi-form-label {
+  width: 150px;
+  line-height: 20px;
+  margin-top: 4px;
+  float: left;
+}
+.youxi-form.youxi-form-inline .youxi-form-block > .youxi-form-item,
+.youxi-form .youxi-form-inline .youxi-form-block > .youxi-form-item {
+  margin-left: 0;
+}
+.youxi-form.youxi-form-inline .youxi-form-block > .youxi-form-label,
+.youxi-form .youxi-form-inline .youxi-form-block > .youxi-form-label {
+  width: auto;
+  line-height: 30px;
+  margin-top: 0;
+  float: none;
+}
+/* Form List
+================================================== */
+.youxi-form .youxi-form-list,
+.youxi-form .youxi-form-list li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.youxi-form .youxi-form-list li {
+  margin-bottom: 4px;
+}
+.youxi-form .youxi-form-list li:last-child {
+  margin-bottom: 0;
+}
+.youxi-form .youxi-form-list li > input,
+.youxi-form .youxi-form-list li > label {
+  padding: 0;
+  margin: 0 1px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.youxi-form .youxi-form-list li > label {
+  font-weight: 600;
+}
+.youxi-form .youxi-form-list.inline li {
+  display: inline-block;
+  margin: 3px 9px 0 0;
+  vertical-align: middle;
+}
+/* Form Errors
+================================================== */
+.youxi-form label.error {
+  color: #c83139;
+  display: block;
+  padding: 5px 0 0;
+  font-size: 12px;
+}
+/* Media Queries
+================================================== */
+@media (max-width: 850px) {
+  .youxi-form .youxi-form-inline .youxi-button-row {
+    margin-left: 0;
+  }
+  .youxi-form.youxi-form-inline .youxi-form-label,
+  .youxi-form .youxi-form-inline .youxi-form-label,
+  .youxi-form.youxi-form-inline .youxi-form-item,
+  .youxi-form .youxi-form-inline .youxi-form-item {
+    display: block;
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+  .youxi-form.youxi-form-inline .youxi-form-label,
+  .youxi-form .youxi-form-inline .youxi-form-label {
+    padding-top: 0;
+  }
+  .youxi-form.youxi-form-inline .youxi-form-list,
+  .youxi-form .youxi-form-inline .youxi-form-list {
+    float: none;
+    width: auto;
+    display: block;
+  }
+  .youxi-form .youxi-form-list.inline li {
+    float: none;
+    margin-right: 0;
+  }
+}

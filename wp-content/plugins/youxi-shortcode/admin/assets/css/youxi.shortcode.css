@@ -1,0 +1,192 @@
+
+/* ==========================================================================
+	Bootstrap Modal Styles
+============================================================================= */
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.2;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+.youxi-modal-wrap {
+    position: relative;
+    z-index: 9998;
+}
+
+.youxi-modal-open { overflow: hidden }
+body.youxi-modal-open { margin-right: 15px }
+
+.youxi-modal-loading .youxi-modal-header, 
+.youxi-modal-loading .youxi-modal-body, 
+.youxi-modal-loading .youxi-modal-footer {
+    display: none;
+}
+
+.youxi-modal-loading .youxi-modal-content {
+    padding: 64px 0;
+    background-image: url(../img/preload.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.youxi-modal {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 191043;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    outline: none !important;
+}
+
+.youxi-modal-dialog {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.vertical-center .youxi-modal-dialog:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.youxi-modal-backdrop {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 191042;
+    overflow: hidden;
+    position: fixed;
+    background: #0b0b0b;
+    opacity: 0.6;
+}
+
+.youxi-modal-content-wrap {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: left;
+    z-index: 191045;
+    width: 100%;
+}
+
+.youxi-modal-content {
+    position: relative;
+    margin: 8px auto;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-clip: padding-box;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 464px;
+}
+
+.youxi-modal-header {
+    padding: 25px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.youxi-modal-header .close { margin-top: -2px }
+
+.youxi-modal-title {
+    margin: 0;
+}
+
+.youxi-modal-body {
+    position: relative;
+    padding: 20px;
+}
+
+.youxi-modal-footer {
+    margin-top: 15px;
+    padding: 19px 20px 20px;
+    text-align: right;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-radius: 0 0 3px 3px;
+}
+
+.youxi-modal-footer:before,
+.youxi-modal-footer:after {
+    content: " ";
+    display: table;
+}
+
+.youxi-modal-footer:after { clear: both }
+
+.youxi-modal-footer .button + .button {
+	margin-left: 5px;
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) { 
+    .youxi-modal-content {
+        width: 970px;
+        margin: 64px auto 32px;
+    }
+}
+
+/* ==========================================================================
+	Youxi Shortcode Editor
+============================================================================= */
+
+.youxi-shortcode-editor-form {
+	margin: -20px;
+}
+
+/* ==========================================================================
+    Youxi Shortcode MCE Icon
+============================================================================= */
+
+i.mce-i-youxi-shortcode {
+    font: normal 20px/1 'dashicons';
+    padding: 0;
+    vertical-align: top;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: -2px;
+    padding-right: 2px;
+}
+
+i.mce-i-youxi-shortcode:before {
+    content: '\f100';
+}
